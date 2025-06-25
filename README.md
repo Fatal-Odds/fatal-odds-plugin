@@ -70,8 +70,8 @@ float currentSpeed = modifierManager.GetStatValue("MovementSpeed_GUID");
 
 ## 📚 Documentation
 
-- **Getting Started**: [Documentation~/getting-started.md](Documentation~/getting-started.md)
-- **API Reference**: [Documentation~/api-reference.md](Documentation~/api-reference.md)
+- **Getting Started**: [Documentation~/getting-started.md](Documentation/getting-started.md)
+- **API Reference**: [Documentation~/api-reference.md](Documentation/api-reference.md)
 - **In-Editor Help**: `Window → Fatal Odds → Help & Documentation`
 
 ## 🎮 Perfect For
