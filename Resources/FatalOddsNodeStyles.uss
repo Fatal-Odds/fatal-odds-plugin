@@ -1,0 +1,367 @@
+/* Fatal Odds Node Styles */
+
+/* Base node styling */
+.node {
+    min-width: 200px;
+    min-height: 140px;
+    border-width: 2px;
+    margin: 6px;
+    background-color: rgba(42, 42, 42, 0.95);
+}
+
+.node:hover {
+    border-width: 3px;
+}
+
+.node:selected {
+    border-width: 3px;
+}
+
+.node #title {
+    font-size: 13px;
+    -unity-font-style: bold;
+    padding: 8px 12px;
+    -unity-text-align: middle-center;
+    color: #FFFFFF;
+}
+
+.node #contents {
+    padding: 12px;
+    background-color: rgba(35, 35, 35, 0.9);
+}
+
+/* Stat Node Styling - Blue */
+.stat-node {
+    background-color: rgba(30, 80, 120, 0.9);
+    border-color: #4A90E2;
+}
+
+.stat-node #title {
+    background-color: #4A90E2;
+}
+
+.stat-node:selected {
+    border-color: #6BB6FF;
+}
+
+.stat-node:hover {
+    background-color: rgba(35, 90, 130, 0.9);
+}
+
+/* Modifier Node Styling - Orange */
+.modifier-node {
+    background-color: rgba(120, 60, 20, 0.9);
+    border-color: #FF8C00;
+}
+
+.modifier-node #title {
+    background-color: #FF8C00;
+}
+
+.modifier-node:selected {
+    border-color: #FFB347;
+}
+
+.modifier-node:hover {
+    background-color: rgba(130, 70, 25, 0.9);
+}
+
+/* Item Node Styling - Green */
+.item-node {
+    background-color: rgba(40, 100, 45, 0.9);
+    border-color: #4CAF50;
+}
+
+.item-node #title {
+    background-color: #4CAF50;
+}
+
+.item-node:selected {
+    border-color: #81C784;
+}
+
+.item-node:hover {
+    background-color: rgba(45, 110, 50, 0.9);
+}
+
+/* Ability Node Styling - Purple */
+.ability-node {
+    background-color: rgba(80, 30, 120, 0.9);
+    border-color: #BA68C8;
+}
+
+.ability-node #title {
+    background-color: #BA68C8;
+}
+
+.ability-node:selected {
+    border-color: #CE93D8;
+}
+
+.ability-node:hover {
+    background-color: rgba(90, 35, 130, 0.9);
+}
+
+/* Port styling */
+.port {
+    height: 22px;
+    width: 22px;
+    align-self: center;
+    margin: 3px;
+    border-width: 2px;
+    border-color: rgba(200, 200, 200, 0.8);
+    background-color: rgba(60, 60, 60, 0.9);
+}
+
+.port:hover {
+    border-color: rgba(255, 255, 255, 1);
+    background-color: rgba(80, 80, 80, 1);
+}
+
+.port .unity-label {
+    font-size: 10px;
+    color: #E0E0E0;
+    margin-left: 25px;
+    margin-top: -11px;
+}
+
+/* Input/Output port containers */
+#input {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 4px;
+}
+
+#output {
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 4px;
+}
+
+/* Form controls styling */
+.node .unity-text-field {
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+.node .unity-text-field__input {
+    background-color: rgba(25, 25, 25, 0.8);
+    border-color: rgba(100, 100, 100, 0.5);
+    color: #F0F0F0;
+    padding: 6px;
+    border-width: 1px;
+}
+
+.node .unity-text-field__input:focus {
+    border-color: rgba(74, 144, 226, 0.8);
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+/* Enum field styling */
+.node .unity-enum-field {
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+.node .unity-enum-field__input {
+    background-color: rgba(25, 25, 25, 0.8);
+    border-color: rgba(100, 100, 100, 0.5);
+    color: #F0F0F0;
+    padding: 6px;
+    border-width: 1px;
+}
+
+.node .unity-enum-field__input:hover {
+    border-color: rgba(120, 120, 120, 0.7);
+}
+
+/* Float field styling */
+.node .unity-float-field {
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+.node .unity-float-field__input {
+    background-color: rgba(25, 25, 25, 0.8);
+    border-color: rgba(100, 100, 100, 0.5);
+    color: #F0F0F0;
+    padding: 6px;
+    border-width: 1px;
+}
+
+.node .unity-float-field__input:focus {
+    border-color: rgba(74, 144, 226, 0.8);
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+/* Button styling in nodes */
+.node .unity-button {
+    font-size: 10px;
+    padding: 4px 8px;
+    margin: 2px;
+    background-color: rgba(70, 70, 70, 0.8);
+    border-color: rgba(100, 100, 100, 0.6);
+    border-width: 1px;
+    color: #FFFFFF;
+}
+
+.node .unity-button:hover {
+    background-color: rgba(90, 90, 90, 0.9);
+    border-color: rgba(130, 130, 130, 0.8);
+}
+
+.node .unity-button:active {
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+/* Label styling within nodes */
+.node .unity-label {
+    color: #E8E8E8;
+    font-size: 11px;
+}
+
+.node .unity-base-field__label {
+    color: #D0D0D0;
+    font-size: 10px;
+    min-width: 60px;
+    margin-right: 6px;
+}
+
+/* Category badge styling */
+.category-badge {
+    padding: 2px 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 9px;
+    align-self: flex-start;
+    color: #FFFFFF;
+}
+
+/* Connection styling */
+.edge {
+    --edge-width: 3px;
+    --edge-color: rgba(180, 180, 180, 0.8);
+}
+
+.edge:hover {
+    --edge-width: 4px;
+    --edge-color: rgba(220, 220, 220, 1);
+}
+
+.edge.selected {
+    --edge-width: 4px;
+    --edge-color: rgba(74, 144, 226, 1);
+}
+
+/* Graph view background */
+.graph-view {
+    background-color: #1E1E1E;
+}
+
+/* Grid background styling */
+.grid-background {
+    --grid-background-color: #1E1E1E;
+    --line-color: rgba(100, 100, 100, 0.2);
+    --thick-line-color: rgba(100, 100, 100, 0.3);
+    --spacing: 50;
+}
+
+/* Toolbar styling */
+.toolbar {
+    background-color: rgba(56, 56, 56, 0.95);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(35, 35, 35, 0.8);
+    padding: 4px;
+}
+
+.primary-button {
+    background-color: rgba(74, 144, 226, 0.9);
+    color: #FFFFFF;
+    border-width: 1px;
+    border-color: rgba(74, 144, 226, 0.5);
+    padding: 6px 12px;
+    margin: 2px;
+}
+
+.primary-button:hover {
+    background-color: rgba(94, 164, 246, 1);
+    border-color: rgba(94, 164, 246, 0.8);
+}
+
+.success-button {
+    background-color: rgba(76, 175, 80, 0.9);
+    color: #FFFFFF;
+    border-width: 1px;
+    border-color: rgba(76, 175, 80, 0.5);
+    padding: 6px 12px;
+    margin: 2px;
+}
+
+.success-button:hover {
+    background-color: rgba(96, 195, 100, 1);
+    border-color: rgba(96, 195, 100, 0.8);
+}
+
+.warning-button {
+    background-color: rgba(255, 193, 7, 0.9);
+    color: #000000;
+    border-width: 1px;
+    border-color: rgba(255, 193, 7, 0.5);
+    padding: 6px 12px;
+    margin: 2px;
+}
+
+.warning-button:hover {
+    background-color: rgba(255, 213, 27, 1);
+    border-color: rgba(255, 213, 27, 0.8);
+}
+
+/* Status bar styling */
+.status-bar {
+    background-color: rgba(48, 48, 48, 0.95);
+    border-top-width: 1px;
+    border-top-color: rgba(35, 35, 35, 0.8);
+    padding: 6px 12px;
+}
+
+.status-bar .unity-label {
+    color: #C0C0C0;
+    font-size: 11px;
+}
+
+/* Enhanced styling for improved nodes */
+.improved-stat-node {
+    background-color: rgba(30, 80, 120, 0.9);
+    border-color: #4A90E2;
+}
+
+.improved-stat-node #title {
+    background-color: #4A90E2;
+}
+
+.improved-modifier-node {
+    background-color: rgba(120, 60, 20, 0.9);
+    border-color: #FF8C00;
+}
+
+.improved-modifier-node #title {
+    background-color: #FF8C00;
+}
+
+.improved-item-node {
+    background-color: rgba(40, 100, 45, 0.9);
+    border-color: #4CAF50;
+}
+
+.improved-item-node #title {
+    background-color: #4CAF50;
+}
+
+.improved-ability-node {
+    background-color: rgba(80, 30, 120, 0.9);
+    border-color: #BA68C8;
+}
+
+.improved-ability-node #title {
+    background-color: #BA68C8;
+}

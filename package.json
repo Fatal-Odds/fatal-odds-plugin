@@ -1,0 +1,64 @@
+{
+  "name": "com.mediadesignschool.fatalodds",
+  "version": "0.1.0",
+  "displayName": "Fatal Odds - Modifier System",
+  "description": "A comprehensive Unity plugin for creating stacking modifier items and abilities. Perfect for action roguelike games like Risk of Rain. Features automatic stat discovery via reflection, visual item creation editor, and a complete runtime modifier system with Risk of Rain style stacking mechanics. Includes cross-project compatibility, auto-setup, and comprehensive validation tools.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "keywords": [
+    "roguelike",
+    "modifiers",
+    "items",
+    "abilities",
+    "stats",
+    "stacking",
+    "risk-of-rain",
+    "editor-tools",
+    "gameplay-systems",
+    "scriptableobjects",
+    "reflection",
+    "game-design",
+    "temporal",
+    "time-manipulation",
+    "action-rpg",
+    "loot-system",
+    "stat-modification",
+    "plugin",
+    "unity-package",
+    "cross-project"
+  ],
+  "category": "Tool",
+  "author": {
+    "name": "Media Design School - Fatal Odds Team",
+    "email": "Ryan.IngenKal@mds.ac.nz",
+  },
+  "contributors": [
+    {
+      "name": "Ryan Ingen-Kal",
+      "email": "Ryan.IngenKal@mds.ac.nz",
+      "role": "Lead Developer & Project Manager"
+    }
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MDS-ProductionStudio/feb25-production-fatalodds.git",
+    "revision": "main"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/MDS-ProductionStudio/feb25-production-fatalodds/blob/main/README.md",
+  "changelogUrl": "https://github.com/MDS-ProductionStudio/feb25-production-fatalodds/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/MDS-ProductionStudio/feb25-production-fatalodds/blob/main/LICENSE",
+  "hideInEditor": false,
+  "type": "tool",
+  "relatedPackages": {
+    "com.unity.addressables": "1.19.19",
+    "com.unity.cinemachine": "2.8.9"
+  },
+  "testables": [
+    "FatalOdds.Runtime.Tests",
+    "FatalOdds.Editor.Tests"
+  ]
+}

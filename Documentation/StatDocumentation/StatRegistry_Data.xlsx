@@ -1,0 +1,3217 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<Styles>
+<Style ss:ID="Header">
+<Font ss:Bold="1" ss:Size="12"/>
+<Interior ss:Color="#4F81BD" ss:Pattern="Solid"/>
+<Font ss:Color="#FFFFFF"/>
+</Style>
+<Style ss:ID="Summary">
+<Font ss:Bold="1" ss:Size="14"/>
+<Interior ss:Color="#D9E1F2" ss:Pattern="Solid"/>
+</Style>
+</Styles>
+<Worksheet ss:Name="Summary">
+<Table>
+<Row><Cell ss:StyleID="Summary"><Data ss:Type="String">Fatal Odds – Stat Registry Summary</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Generated: 2025-06-25 21:15:47</Data></Cell></Row>
+<Row/>
+<Row><Cell ss:StyleID="Header"><Data ss:Type="String">Metric</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Count</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Total Stats</Data></Cell><Cell><Data ss:Type="Number">156</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Unique Owners</Data></Cell><Cell><Data ss:Type="Number">4</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Categories</Data></Cell><Cell><Data ss:Type="Number">23</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Stats with Items</Data></Cell><Cell><Data ss:Type="Number">0</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Stats with Abilities</Data></Cell><Cell><Data ss:Type="Number">0</Data></Cell></Row>
+<Row><Cell><Data ss:Type="String">Unmodified Stats</Data></Cell><Cell><Data ss:Type="Number">156</Data></Cell></Row>
+</Table>
+</Worksheet>
+<Worksheet ss:Name="All Stats">
+<Table>
+<Row>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Owner</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Category</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Stat Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Field Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Type</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Base Value</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Items Count</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Abilities Count</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Total Mods</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Base Boss Coin Value</Data></Cell>
+<Cell><Data ss:Type="String">baseBossCoinValue</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">Base coins dropped by boss enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Base Enemy Coin Value</Data></Cell>
+<Cell><Data ss:Type="String">baseEnemyCoinValue</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Base coins dropped by regular enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Current Coins</Data></Cell>
+<Cell><Data ss:Type="String">currentCoins</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="String">Player&apos;s current coin balance</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Difficulty Scale Factor</Data></Cell>
+<Cell><Data ss:Type="String">difficultyScaleFactor</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">0.20</Data></Cell>
+<Cell><Data ss:Type="String">Multiplier per diff. level</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Game Progression Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">gameProgressionMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Overall coin multiplier</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Stage Scale Factor</Data></Cell>
+<Cell><Data ss:Type="String">stageScaleFactor</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">0.15</Data></Cell>
+<Cell><Data ss:Type="String">Multiplier increase per stage</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Time Scale Factor</Data></Cell>
+<Cell><Data ss:Type="String">timeScaleFactor</Data></Cell>
+<Cell><Data ss:Type="String">CoinSystem</Data></Cell>
+<Cell><Data ss:Type="Number">0.05</Data></Cell>
+<Cell><Data ss:Type="String">Multiplier increase per second</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Character</Data></Cell>
+<Cell><Data ss:Type="String">isPlayerCharacter</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseAbility</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Reference to identify this as player ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Reference</Data></Cell>
+<Cell><Data ss:Type="String">isPlayerCharacter</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Identifies this as a player character</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Burst Count</Data></Cell>
+<Cell><Data ss:Type="String">burstCount</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of burst particles</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Charge Time</Data></Cell>
+<Cell><Data ss:Type="String">chargeSeconds</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseAbility</Data></Cell>
+<Cell><Data ss:Type="Number">0.20</Data></Cell>
+<Cell><Data ss:Type="String">Time required to charge Chrono Collapse ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">cooldownSeconds</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseAbility</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">Cooldown duration for Chrono Collapse</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">energyCost</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseAbility</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">Energy required to activate Chrono Collapse</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Shake Intensity</Data></Cell>
+<Cell><Data ss:Type="String">shakeIntensity</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseAbility</Data></Cell>
+<Cell><Data ss:Type="Number">0.30</Data></Cell>
+<Cell><Data ss:Type="String">Camera shake intensity for Chrono Collapse</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Visual Scale</Data></Cell>
+<Cell><Data ss:Type="String">visualScale</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseAbility</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Scale multiplier for Chrono Collapse visual effects</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Color Intensity</Data></Cell>
+<Cell><Data ss:Type="String">colourIntensity</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Intensity of effect colors</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Distortion Layers</Data></Cell>
+<Cell><Data ss:Type="String">distortionLayers</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of distortion ring layers</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Distortion Pulse</Data></Cell>
+<Cell><Data ss:Type="String">distortionPulse</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Pulse intensity of distortion</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Distortion Speed</Data></Cell>
+<Cell><Data ss:Type="String">distortionSpeed</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Speed of distortion animation</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Effect Duration</Data></Cell>
+<Cell><Data ss:Type="String">effectDuration</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Duration of collapse effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Effect Radius</Data></Cell>
+<Cell><Data ss:Type="String">effectRadius</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Radius of collapse effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Explosion Damage</Data></Cell>
+<Cell><Data ss:Type="String">explosionDamage</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Damage dealt by the explosion (0 = visual only)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Particle Scale</Data></Cell>
+<Cell><Data ss:Type="String">particleScale</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Scale multiplier for all particles</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Reversal Count</Data></Cell>
+<Cell><Data ss:Type="String">reversalCount</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of reversal particles</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Ring Spin Speed Max</Data></Cell>
+<Cell><Data ss:Type="String">spinSpeedMax</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum rotation speed for rings</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Ring Spin Speed Min</Data></Cell>
+<Cell><Data ss:Type="String">spinSpeedMin</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum rotation speed for rings</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Shard Count</Data></Cell>
+<Cell><Data ss:Type="String">shardCount</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of shard particles</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Shock Ring Count</Data></Cell>
+<Cell><Data ss:Type="String">shockRingCount</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of shock rings</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Shock Ring Thickness</Data></Cell>
+<Cell><Data ss:Type="String">shockRingThickness</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Thickness of shock rings</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Unfold Time</Data></Cell>
+<Cell><Data ss:Type="String">unfoldTime</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Time for rings to reach full radius</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Use Time Reversal</Data></Cell>
+<Cell><Data ss:Type="String">useTimeReversal</Data></Cell>
+<Cell><Data ss:Type="String">ChronoCollapseEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Enable time reversal particle effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Base Damage</Data></Cell>
+<Cell><Data ss:Type="String">baseDamage</Data></Cell>
+<Cell><Data ss:Type="String">TemporalWeaponController</Data></Cell>
+<Cell><Data ss:Type="Number">23.00</Data></Cell>
+<Cell><Data ss:Type="String">Base damage dealt per projectile</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Fire Rate</Data></Cell>
+<Cell><Data ss:Type="String">fireRate</Data></Cell>
+<Cell><Data ss:Type="String">TemporalWeaponController</Data></Cell>
+<Cell><Data ss:Type="Number">2.50</Data></Cell>
+<Cell><Data ss:Type="String">How many shots per second the weapon can fire</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Ammo</Data></Cell>
+<Cell><Data ss:Type="String">maxAmmo</Data></Cell>
+<Cell><Data ss:Type="String">TemporalWeaponController</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum ammunition capacity</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Player Auto Resurrect Delay</Data></Cell>
+<Cell><Data ss:Type="String">autoResDelay</Data></Cell>
+<Cell><Data ss:Type="String">PlayerHealth</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">Time in seconds before automatic resurrection</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Player Invulnerability Duration</Data></Cell>
+<Cell><Data ss:Type="String">invulnTime</Data></Cell>
+<Cell><Data ss:Type="String">PlayerHealth</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">Duration of invulnerability after taking damage</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Player Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="String">PlayerHealth</Data></Cell>
+<Cell><Data ss:Type="Number">150.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum player health points</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Projectile Speed</Data></Cell>
+<Cell><Data ss:Type="String">projectileSpeed</Data></Cell>
+<Cell><Data ss:Type="String">TemporalWeaponController</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">Speed of fired projectiles</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Reload Speed Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">reloadSpeedMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">TemporalWeaponController</Data></Cell>
+<Cell><Data ss:Type="Number">54.00</Data></Cell>
+<Cell><Data ss:Type="String">Speed multiplier for orb motion during reload</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Reload Time</Data></Cell>
+<Cell><Data ss:Type="String">reloadTime</Data></Cell>
+<Cell><Data ss:Type="String">TemporalWeaponController</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">Time required to reload weapon</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Aim Lock Duration</Data></Cell>
+<Cell><Data ss:Type="String">aimLockDuration</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">How long aim lock lasts after shooting</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Air Drag</Data></Cell>
+<Cell><Data ss:Type="String">airDrag</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">Drag force applied when airborne</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Air Mobility</Data></Cell>
+<Cell><Data ss:Type="String">airMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">0.90</Data></Cell>
+<Cell><Data ss:Type="String">Movement control while airborne</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Directional Jump Force</Data></Cell>
+<Cell><Data ss:Type="String">directionalJumpForce</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">Extra force for directional jumps</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Double Jump Force</Data></Cell>
+<Cell><Data ss:Type="String">doubleJumpForce</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">Force applied for double jump</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Ground Drag</Data></Cell>
+<Cell><Data ss:Type="String">groundDrag</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">Drag force applied when grounded</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Jump Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">jumpCooldown</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">Cooldown between jump attempts</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Jump Force</Data></Cell>
+<Cell><Data ss:Type="String">jumpForce</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">7.00</Data></Cell>
+<Cell><Data ss:Type="String">Force applied when jumping</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Max Jumps</Data></Cell>
+<Cell><Data ss:Type="String">maxJumps</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum number of jumps before landing</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Sprint Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">sprintMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">Speed multiplier when sprinting</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Turn Speed</Data></Cell>
+<Cell><Data ss:Type="String">rotationSpeed</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">15.00</Data></Cell>
+<Cell><Data ss:Type="String">How fast the player can turn</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Walk Speed</Data></Cell>
+<Cell><Data ss:Type="String">walkSpeed</Data></Cell>
+<Cell><Data ss:Type="String">PlayerMovement</Data></Cell>
+<Cell><Data ss:Type="Number">5.50</Data></Cell>
+<Cell><Data ss:Type="String">Base walking speed of the player</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Collapse Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">chronoCollapseCooldown</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Cooldown time for chrono collapse</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Collapse Cost</Data></Cell>
+<Cell><Data ss:Type="String">chronoCollapseCost</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">Energy cost for chrono collapse</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Dilation Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">dilationCooldown</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">Cooldown time for dilation ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Dilation Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">dilationCost</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">15.00</Data></Cell>
+<Cell><Data ss:Type="String">Energy cost per second for time dilation</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Dilation Scale</Data></Cell>
+<Cell><Data ss:Type="String">dilationScale</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">0.40</Data></Cell>
+<Cell><Data ss:Type="String">Time scale during dilation (0.3 = 30% speed)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Energy Regen Delay</Data></Cell>
+<Cell><Data ss:Type="String">timeEnergyRegenDelay</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">Delay before energy starts regenerating</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Energy Regen Rate</Data></Cell>
+<Cell><Data ss:Type="String">energyRegenRate</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Energy regeneration per second</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">freezeCooldown</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Cooldown time for freeze ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Duration</Data></Cell>
+<Cell><Data ss:Type="String">freezeDuration</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">Duration of temporal freeze</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">freezeCost</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Energy cost for freeze ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Radius</Data></Cell>
+<Cell><Data ss:Type="String">freezeRadius</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Radius of freeze effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Time Energy</Data></Cell>
+<Cell><Data ss:Type="String">maxTimeEnergy</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum temporal energy</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Rewind Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">rewindCooldown</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Cooldown time for rewind ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Rewind Duration</Data></Cell>
+<Cell><Data ss:Type="String">rewindDuration</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">4.00</Data></Cell>
+<Cell><Data ss:Type="String">How far back to rewind</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Rewind Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">rewindCost</Data></Cell>
+<Cell><Data ss:Type="String">TimeAbilityController</Data></Cell>
+<Cell><Data ss:Type="Number">30.00</Data></Cell>
+<Cell><Data ss:Type="String">Energy cost for rewind ability</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Low Health Regen Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">lowHealthRegenMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">PlayerRegeneration</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">Regen multiplier when health is low</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Delay</Data></Cell>
+<Cell><Data ss:Type="String">regenDelay</Data></Cell>
+<Cell><Data ss:Type="String">PlayerRegeneration</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Time in seconds before regeneration starts</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Percentage</Data></Cell>
+<Cell><Data ss:Type="String">regenPercentagePerSecond</Data></Cell>
+<Cell><Data ss:Type="String">PlayerRegeneration</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="String">Percentage of max health to regenerate per second</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Rate</Data></Cell>
+<Cell><Data ss:Type="String">regenRate</Data></Cell>
+<Cell><Data ss:Type="String">PlayerRegeneration</Data></Cell>
+<Cell><Data ss:Type="Number">4.50</Data></Cell>
+<Cell><Data ss:Type="String">Health regenerated per second</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Tick Interval</Data></Cell>
+<Cell><Data ss:Type="String">regenTickInterval</Data></Cell>
+<Cell><Data ss:Type="String">PlayerRegeneration</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">Time between regeneration ticks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player/UI</Data></Cell>
+<Cell><Data ss:Type="String">Player Health Bar Speed</Data></Cell>
+<Cell><Data ss:Type="String">barLerpSpeed</Data></Cell>
+<Cell><Data ss:Type="String">PlayerHealth</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Speed of health bar animation</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">AI</Data></Cell>
+<Cell><Data ss:Type="String">Detection Radius</Data></Cell>
+<Cell><Data ss:Type="String">detectionRadius</Data></Cell>
+<Cell><Data ss:Type="String">BaseEnemy</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">How far enemy can detect player</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">AI</Data></Cell>
+<Cell><Data ss:Type="String">Detection Radius</Data></Cell>
+<Cell><Data ss:Type="String">detectionRadius</Data></Cell>
+<Cell><Data ss:Type="String">VikingRaider</Data></Cell>
+<Cell><Data ss:Type="Number">15.00</Data></Cell>
+<Cell><Data ss:Type="String">How far enemy can detect player</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Economy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Max Coins</Data></Cell>
+<Cell><Data ss:Type="String">maxCoinAmount</Data></Cell>
+<Cell><Data ss:Type="String">EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum coins awarded</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Economy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Min Coins</Data></Cell>
+<Cell><Data ss:Type="String">minCoinAmount</Data></Cell>
+<Cell><Data ss:Type="String">EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum coins awarded</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">attackCooldown</Data></Cell>
+<Cell><Data ss:Type="String">BaseEnemy</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Time between attacks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">attackCooldown</Data></Cell>
+<Cell><Data ss:Type="String">VikingHunter</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Time between attacks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">attackCooldown</Data></Cell>
+<Cell><Data ss:Type="String">VikingRaider</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">Time between attacks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Damage</Data></Cell>
+<Cell><Data ss:Type="String">attackDamage</Data></Cell>
+<Cell><Data ss:Type="String">BaseEnemy</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Base enemy attack damage</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Damage</Data></Cell>
+<Cell><Data ss:Type="String">attackDamage</Data></Cell>
+<Cell><Data ss:Type="String">VikingHunter</Data></Cell>
+<Cell><Data ss:Type="Number">16.00</Data></Cell>
+<Cell><Data ss:Type="String">Base enemy attack damage</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Damage</Data></Cell>
+<Cell><Data ss:Type="String">attackDamage</Data></Cell>
+<Cell><Data ss:Type="String">VikingRaider</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Base enemy attack damage</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Range</Data></Cell>
+<Cell><Data ss:Type="String">attackRange</Data></Cell>
+<Cell><Data ss:Type="String">BaseEnemy</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Range for melee attacks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Range</Data></Cell>
+<Cell><Data ss:Type="String">attackRange</Data></Cell>
+<Cell><Data ss:Type="String">VikingHunter</Data></Cell>
+<Cell><Data ss:Type="Number">2.50</Data></Cell>
+<Cell><Data ss:Type="String">Range for melee attacks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Range</Data></Cell>
+<Cell><Data ss:Type="String">attackRange</Data></Cell>
+<Cell><Data ss:Type="String">VikingRaider</Data></Cell>
+<Cell><Data ss:Type="Number">2.50</Data></Cell>
+<Cell><Data ss:Type="String">Range for melee attacks</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="String">BaseEnemy</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum enemy health points</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="String">VikingHunter</Data></Cell>
+<Cell><Data ss:Type="Number">90.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum enemy health points</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="String">VikingRaider</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum enemy health points</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Movement</Data></Cell>
+<Cell><Data ss:Type="String">Movement Speed</Data></Cell>
+<Cell><Data ss:Type="String">movementSpeed</Data></Cell>
+<Cell><Data ss:Type="String">BaseEnemy</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Enemy movement speed</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Movement</Data></Cell>
+<Cell><Data ss:Type="String">Movement Speed</Data></Cell>
+<Cell><Data ss:Type="String">movementSpeed</Data></Cell>
+<Cell><Data ss:Type="String">VikingHunter</Data></Cell>
+<Cell><Data ss:Type="Number">3.50</Data></Cell>
+<Cell><Data ss:Type="String">Enemy movement speed</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy Movement</Data></Cell>
+<Cell><Data ss:Type="String">Movement Speed</Data></Cell>
+<Cell><Data ss:Type="String">movementSpeed</Data></Cell>
+<Cell><Data ss:Type="String">VikingRaider</Data></Cell>
+<Cell><Data ss:Type="Number">3.50</Data></Cell>
+<Cell><Data ss:Type="String">Enemy movement speed</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Death Health %</Data></Cell>
+<Cell><Data ss:Type="String">deathThreshold</Data></Cell>
+<Cell><Data ss:Type="String">EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="String">Health percentage below which the enemy is considered dead</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy</Data></Cell>
+<Cell><Data ss:Type="String">Enemy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Is Boss</Data></Cell>
+<Cell><Data ss:Type="String">isBoss</Data></Cell>
+<Cell><Data ss:Type="String">EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="String">Marks this enemy as a boss</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">AI</Data></Cell>
+<Cell><Data ss:Type="String">Detection Radius</Data></Cell>
+<Cell><Data ss:Type="String">detectionRadius</Data></Cell>
+<Cell><Data ss:Type="String">VikingHunter</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">How far enemy can detect player</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Combat</Data></Cell>
+<Cell><Data ss:Type="String">Test Damage</Data></Cell>
+<Cell><Data ss:Type="String">damage</Data></Cell>
+<Cell><Data ss:Type="String">TestStatsComponent</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Modifies Test Damage</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Combat</Data></Cell>
+<Cell><Data ss:Type="String">Test Health</Data></Cell>
+<Cell><Data ss:Type="String">health</Data></Cell>
+<Cell><Data ss:Type="String">TestStatsComponent</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">Modifies Test Health</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Movement</Data></Cell>
+<Cell><Data ss:Type="String">Test Speed</Data></Cell>
+<Cell><Data ss:Type="String">speed</Data></Cell>
+<Cell><Data ss:Type="String">TestStatsComponent</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Modifies Test Speed</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Test</Data></Cell>
+<Cell><Data ss:Type="String">Another Stat</Data></Cell>
+<Cell><Data ss:Type="String">anotherStat</Data></Cell>
+<Cell><Data ss:Type="String">TestStatsComponent</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Modifies Another Stat</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Test</Data></Cell>
+<Cell><Data ss:Type="String">Test Stat</Data></Cell>
+<Cell><Data ss:Type="String">testStat</Data></Cell>
+<Cell><Data ss:Type="String">TestStatsComponent</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Modifies Test Stat</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Boss Max Dust</Data></Cell>
+<Cell><Data ss:Type="String">bossMaxDustAmount</Data></Cell>
+<Cell><Data ss:Type="String">TimeDustSpawner</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum dust from boss enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Boss Min Dust</Data></Cell>
+<Cell><Data ss:Type="String">bossMinDustAmount</Data></Cell>
+<Cell><Data ss:Type="String">TimeDustSpawner</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum dust from boss enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Dust Amount</Data></Cell>
+<Cell><Data ss:Type="String">maxDustAmount</Data></Cell>
+<Cell><Data ss:Type="String">TimeDustSpawner</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum time dust spawned</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Min Dust Amount</Data></Cell>
+<Cell><Data ss:Type="String">minDustAmount</Data></Cell>
+<Cell><Data ss:Type="String">TimeDustSpawner</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum time dust spawned</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Buff Duration</Data></Cell>
+<Cell><Data ss:Type="String">collectBuffDuration</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">How long the speed buff lasts after collection</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Detonation Damage</Data></Cell>
+<Cell><Data ss:Type="String">detonationDamage</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Damage dealt when dust is detonated by Chrono Collapse</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Detonation Radius</Data></Cell>
+<Cell><Data ss:Type="String">detonationRadius</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Explosion radius when detonated</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Dust Lifetime</Data></Cell>
+<Cell><Data ss:Type="String">lifetimeSeconds</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">How long dust exists before despawning</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Speed Buff Amount</Data></Cell>
+<Cell><Data ss:Type="String">collectSpeedBuff</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Movement speed bonus percentage when collected</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust VFX</Data></Cell>
+<Cell><Data ss:Type="String">Collect Particle Lifetime</Data></Cell>
+<Cell><Data ss:Type="String">collectParticleLifetime</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">How long collect particles last</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust VFX</Data></Cell>
+<Cell><Data ss:Type="String">Detonation Particle Count</Data></Cell>
+<Cell><Data ss:Type="String">detonationParticleCount</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of particles in detonation effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Float Amplitude</Data></Cell>
+<Cell><Data ss:Type="String">floatAmplitude</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">How high/low the dust bobs while floating</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Float Frequency</Data></Cell>
+<Cell><Data ss:Type="String">floatFrequency</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">How fast the floating animation cycles</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Pulse Intensity</Data></Cell>
+<Cell><Data ss:Type="String">pulseIntensity</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Intensity of the pulsing effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Pulse Speed</Data></Cell>
+<Cell><Data ss:Type="String">pulseSpeed</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">Speed of the pulsing glow animation</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Rotation Speed</Data></Cell>
+<Cell><Data ss:Type="String">rotationSpeed</Data></Cell>
+<Cell><Data ss:Type="String">TimeDust</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">How fast the dust rotates</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Explosion Force</Data></Cell>
+<Cell><Data ss:Type="String">explosionForce</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Force applied to fragments on death</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Explosion Radius</Data></Cell>
+<Cell><Data ss:Type="String">explosionRadius</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">Radius of the death explosion effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fade Delay</Data></Cell>
+<Cell><Data ss:Type="String">fadeDelay</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">Delay before fragments start fading</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Count</Data></Cell>
+<Cell><Data ss:Type="String">fragmentCount</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">50.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of fragments spawned on death</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Destroy Time</Data></Cell>
+<Cell><Data ss:Type="String">fragmentDestroyTime</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">How long before fragments are destroyed (to prevent collision)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Lifetime</Data></Cell>
+<Cell><Data ss:Type="String">fragmentLifetime</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">How long fragments exist before fading</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Other</Data></Cell>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Size</Data></Cell>
+<Cell><Data ss:Type="String">fragmentSize</Data></Cell>
+<Cell><Data ss:Type="String">TimeFragmentDeathEffect</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">Size of individual fragments</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Ambush Chance</Data></Cell>
+<Cell><Data ss:Type="String">ambushChance</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">0.15</Data></Cell>
+<Cell><Data ss:Type="String">Chance of an ambush event (0-1)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Ambush Enemy Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">ambushEnemyMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">Multiplier for the number of enemies in an ambush</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Base Difficulty Time</Data></Cell>
+<Cell><Data ss:Type="String">baseDifficultyMinutes</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">12.00</Data></Cell>
+<Cell><Data ss:Type="String">Minutes until difficulty reaches 1.0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Base Spawn Interval</Data></Cell>
+<Cell><Data ss:Type="String">baseSpawnInterval</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Base spawn interval in seconds</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Boss Chance Per Minute</Data></Cell>
+<Cell><Data ss:Type="String">bossChancePerMinute</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="String">Additional boss chance per minute of game time</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Boss Cost Scaling</Data></Cell>
+<Cell><Data ss:Type="String">bossCostScaling</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">How much the boss credit cost scales with difficulty</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Boss Spawn Chance</Data></Cell>
+<Cell><Data ss:Type="String">bossSpawnChance</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">0.05</Data></Cell>
+<Cell><Data ss:Type="String">Chance of a boss spawning instead of regular enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Combat Credits Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">combatCreditsMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">Combat engagement bonus multiplier</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Debug Spawn Count</Data></Cell>
+<Cell><Data ss:Type="String">debugSpawnCount</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">Number of enemies spawned when debug key is pressed</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Gradual Credit Scaling</Data></Cell>
+<Cell><Data ss:Type="String">gradualCreditDifficultyScaling</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">0.25</Data></Cell>
+<Cell><Data ss:Type="String">How much credits scale with difficulty (reduced)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Gradual Credits Per Second</Data></Cell>
+<Cell><Data ss:Type="String">gradualCreditsPerSecond</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">Base credits per second (reduced for longer gameplay)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Late Game Scale Time</Data></Cell>
+<Cell><Data ss:Type="String">lateGameScaleMinutes</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Minutes for late-game scaling to reach full effect</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Late Game Start Time</Data></Cell>
+<Cell><Data ss:Type="String">lateGameStartMinutes</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">Minutes before late-game scaling begins</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Credits</Data></Cell>
+<Cell><Data ss:Type="String">maxCredits</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum credits that can be accumulated</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Difficulty Cap</Data></Cell>
+<Cell><Data ss:Type="String">maxDifficultyCap</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum difficulty cap</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Enemies At Once</Data></Cell>
+<Cell><Data ss:Type="String">maxEnemiesAtOnce</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">30.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum number of enemies at once</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Enemies Per Batch</Data></Cell>
+<Cell><Data ss:Type="String">maxEnemiesPerBatch</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum number of enemies in a spawn batch</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Spawn Attempts</Data></Cell>
+<Cell><Data ss:Type="String">maxSpawnAttempts</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">30.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum attempts to find a valid spawn position</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Spawn Distance</Data></Cell>
+<Cell><Data ss:Type="String">maxSpawnDistance</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum distance from player to spawn enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Credits For Spawn</Data></Cell>
+<Cell><Data ss:Type="String">minCreditsForSpawn</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum credits needed to attempt a spawn</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Spawn Distance</Data></Cell>
+<Cell><Data ss:Type="String">minSpawnDistance</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum distance from player to spawn enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Spawn Interval</Data></Cell>
+<Cell><Data ss:Type="String">minSpawnInterval</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">4.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum spawn interval (at high difficulty)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Time Between Ambushes</Data></Cell>
+<Cell><Data ss:Type="String">minTimeBetweenAmbushes</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">120.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum time between ambush events (seconds)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Time Between Bosses</Data></Cell>
+<Cell><Data ss:Type="String">minTimeBetweenBosses</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">300.00</Data></Cell>
+<Cell><Data ss:Type="String">Minimum time between boss spawns (seconds)</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Raycast Height</Data></Cell>
+<Cell><Data ss:Type="String">raycastHeight</Data></Cell>
+<Cell><Data ss:Type="String">AIDirector</Data></Cell>
+<Cell><Data ss:Type="Number">50.00</Data></Cell>
+<Cell><Data ss:Type="String">Vertical offset for raycasting to find ground</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Chance Per Coin Tier</Data></Cell>
+<Cell><Data ss:Type="String">eliteChancePerCoinTier</Data></Cell>
+<Cell><Data ss:Type="String">EnemySpawnIntegration</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">Additional elite chance per 50 coins</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Coin Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">eliteCoinMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">EnemySpawnIntegration</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">Coin reward multiplier for elite enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Damage Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">eliteDamageMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">EnemySpawnIntegration</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">Damage bonus for elite enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Health Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">eliteHealthMultiplier</Data></Cell>
+<Cell><Data ss:Type="String">EnemySpawnIntegration</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">Health bonus for elite enemies</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Spawn Chance</Data></Cell>
+<Cell><Data ss:Type="String">baseEliteChance</Data></Cell>
+<Cell><Data ss:Type="String">EnemySpawnIntegration</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">Base chance for elite enemy spawn</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">History Seconds</Data></Cell>
+<Cell><Data ss:Type="String">historySeconds</Data></Cell>
+<Cell><Data ss:Type="String">TimeDirector</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">How many seconds of history to keep</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Active Trackables</Data></Cell>
+<Cell><Data ss:Type="String">maxActiveTrackables</Data></Cell>
+<Cell><Data ss:Type="String">TimeDirector</Data></Cell>
+<Cell><Data ss:Type="Number">200.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum number of tracked objects</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">System</Data></Cell>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Tracking Distance</Data></Cell>
+<Cell><Data ss:Type="String">maxTrackingDistance</Data></Cell>
+<Cell><Data ss:Type="String">TimeDirector</Data></Cell>
+<Cell><Data ss:Type="Number">50.00</Data></Cell>
+<Cell><Data ss:Type="String">Maximum distance to track objects</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+<Worksheet ss:Name="Player">
+<Table>
+<Row>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Category</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Stat Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Field Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Base Value</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Items</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Abilities</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Base Boss Coin Value</Data></Cell>
+<Cell><Data ss:Type="String">baseBossCoinValue</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Base Enemy Coin Value</Data></Cell>
+<Cell><Data ss:Type="String">baseEnemyCoinValue</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Current Coins</Data></Cell>
+<Cell><Data ss:Type="String">currentCoins</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Difficulty Scale Factor</Data></Cell>
+<Cell><Data ss:Type="String">difficultyScaleFactor</Data></Cell>
+<Cell><Data ss:Type="Number">0.20</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Game Progression Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">gameProgressionMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Stage Scale Factor</Data></Cell>
+<Cell><Data ss:Type="String">stageScaleFactor</Data></Cell>
+<Cell><Data ss:Type="Number">0.15</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/Player</Data></Cell>
+<Cell><Data ss:Type="String">Time Scale Factor</Data></Cell>
+<Cell><Data ss:Type="String">timeScaleFactor</Data></Cell>
+<Cell><Data ss:Type="Number">0.05</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Character</Data></Cell>
+<Cell><Data ss:Type="String">isPlayerCharacter</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player</Data></Cell>
+<Cell><Data ss:Type="String">Player Reference</Data></Cell>
+<Cell><Data ss:Type="String">isPlayerCharacter</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Burst Count</Data></Cell>
+<Cell><Data ss:Type="String">burstCount</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Charge Time</Data></Cell>
+<Cell><Data ss:Type="String">chargeSeconds</Data></Cell>
+<Cell><Data ss:Type="Number">0.20</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">cooldownSeconds</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">energyCost</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Shake Intensity</Data></Cell>
+<Cell><Data ss:Type="String">shakeIntensity</Data></Cell>
+<Cell><Data ss:Type="Number">0.30</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Visual Scale</Data></Cell>
+<Cell><Data ss:Type="String">visualScale</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Color Intensity</Data></Cell>
+<Cell><Data ss:Type="String">colourIntensity</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Distortion Layers</Data></Cell>
+<Cell><Data ss:Type="String">distortionLayers</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Distortion Pulse</Data></Cell>
+<Cell><Data ss:Type="String">distortionPulse</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Distortion Speed</Data></Cell>
+<Cell><Data ss:Type="String">distortionSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Effect Duration</Data></Cell>
+<Cell><Data ss:Type="String">effectDuration</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Effect Radius</Data></Cell>
+<Cell><Data ss:Type="String">effectRadius</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Explosion Damage</Data></Cell>
+<Cell><Data ss:Type="String">explosionDamage</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Particle Scale</Data></Cell>
+<Cell><Data ss:Type="String">particleScale</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Reversal Count</Data></Cell>
+<Cell><Data ss:Type="String">reversalCount</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Ring Spin Speed Max</Data></Cell>
+<Cell><Data ss:Type="String">spinSpeedMax</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Ring Spin Speed Min</Data></Cell>
+<Cell><Data ss:Type="String">spinSpeedMin</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Shard Count</Data></Cell>
+<Cell><Data ss:Type="String">shardCount</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Shock Ring Count</Data></Cell>
+<Cell><Data ss:Type="String">shockRingCount</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Shock Ring Thickness</Data></Cell>
+<Cell><Data ss:Type="String">shockRingThickness</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Unfold Time</Data></Cell>
+<Cell><Data ss:Type="String">unfoldTime</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Abilities</Data></Cell>
+<Cell><Data ss:Type="String">Use Time Reversal</Data></Cell>
+<Cell><Data ss:Type="String">useTimeReversal</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Base Damage</Data></Cell>
+<Cell><Data ss:Type="String">baseDamage</Data></Cell>
+<Cell><Data ss:Type="Number">23.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Fire Rate</Data></Cell>
+<Cell><Data ss:Type="String">fireRate</Data></Cell>
+<Cell><Data ss:Type="Number">2.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Ammo</Data></Cell>
+<Cell><Data ss:Type="String">maxAmmo</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Player Auto Resurrect Delay</Data></Cell>
+<Cell><Data ss:Type="String">autoResDelay</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Player Invulnerability Duration</Data></Cell>
+<Cell><Data ss:Type="String">invulnTime</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Player Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="Number">150.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Projectile Speed</Data></Cell>
+<Cell><Data ss:Type="String">projectileSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Reload Speed Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">reloadSpeedMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">54.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Combat</Data></Cell>
+<Cell><Data ss:Type="String">Reload Time</Data></Cell>
+<Cell><Data ss:Type="String">reloadTime</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Aim Lock Duration</Data></Cell>
+<Cell><Data ss:Type="String">aimLockDuration</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Air Drag</Data></Cell>
+<Cell><Data ss:Type="String">airDrag</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Air Mobility</Data></Cell>
+<Cell><Data ss:Type="String">airMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">0.90</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Directional Jump Force</Data></Cell>
+<Cell><Data ss:Type="String">directionalJumpForce</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Double Jump Force</Data></Cell>
+<Cell><Data ss:Type="String">doubleJumpForce</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Ground Drag</Data></Cell>
+<Cell><Data ss:Type="String">groundDrag</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Jump Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">jumpCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Jump Force</Data></Cell>
+<Cell><Data ss:Type="String">jumpForce</Data></Cell>
+<Cell><Data ss:Type="Number">7.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Max Jumps</Data></Cell>
+<Cell><Data ss:Type="String">maxJumps</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Sprint Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">sprintMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Turn Speed</Data></Cell>
+<Cell><Data ss:Type="String">rotationSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">15.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Movement</Data></Cell>
+<Cell><Data ss:Type="String">Walk Speed</Data></Cell>
+<Cell><Data ss:Type="String">walkSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">5.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Collapse Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">chronoCollapseCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Chrono Collapse Cost</Data></Cell>
+<Cell><Data ss:Type="String">chronoCollapseCost</Data></Cell>
+<Cell><Data ss:Type="Number">25.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Dilation Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">dilationCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Dilation Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">dilationCost</Data></Cell>
+<Cell><Data ss:Type="Number">15.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Dilation Scale</Data></Cell>
+<Cell><Data ss:Type="String">dilationScale</Data></Cell>
+<Cell><Data ss:Type="Number">0.40</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Energy Regen Delay</Data></Cell>
+<Cell><Data ss:Type="String">timeEnergyRegenDelay</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Energy Regen Rate</Data></Cell>
+<Cell><Data ss:Type="String">energyRegenRate</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">freezeCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Duration</Data></Cell>
+<Cell><Data ss:Type="String">freezeDuration</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">freezeCost</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Freeze Radius</Data></Cell>
+<Cell><Data ss:Type="String">freezeRadius</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Time Energy</Data></Cell>
+<Cell><Data ss:Type="String">maxTimeEnergy</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Rewind Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">rewindCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Rewind Duration</Data></Cell>
+<Cell><Data ss:Type="String">rewindDuration</Data></Cell>
+<Cell><Data ss:Type="Number">4.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player Time</Data></Cell>
+<Cell><Data ss:Type="String">Rewind Energy Cost</Data></Cell>
+<Cell><Data ss:Type="String">rewindCost</Data></Cell>
+<Cell><Data ss:Type="Number">30.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Low Health Regen Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">lowHealthRegenMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Delay</Data></Cell>
+<Cell><Data ss:Type="String">regenDelay</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Percentage</Data></Cell>
+<Cell><Data ss:Type="String">regenPercentagePerSecond</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Rate</Data></Cell>
+<Cell><Data ss:Type="String">regenRate</Data></Cell>
+<Cell><Data ss:Type="Number">4.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player/Health</Data></Cell>
+<Cell><Data ss:Type="String">Regen Tick Interval</Data></Cell>
+<Cell><Data ss:Type="String">regenTickInterval</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Player/UI</Data></Cell>
+<Cell><Data ss:Type="String">Player Health Bar Speed</Data></Cell>
+<Cell><Data ss:Type="String">barLerpSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+<Worksheet ss:Name="Enemy">
+<Table>
+<Row>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Category</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Stat Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Field Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Base Value</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Items</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Abilities</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI</Data></Cell>
+<Cell><Data ss:Type="String">Detection Radius</Data></Cell>
+<Cell><Data ss:Type="String">detectionRadius</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI</Data></Cell>
+<Cell><Data ss:Type="String">Detection Radius</Data></Cell>
+<Cell><Data ss:Type="String">detectionRadius</Data></Cell>
+<Cell><Data ss:Type="Number">15.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Max Coins</Data></Cell>
+<Cell><Data ss:Type="String">maxCoinAmount</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Economy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Min Coins</Data></Cell>
+<Cell><Data ss:Type="String">minCoinAmount</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">attackCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">attackCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Cooldown</Data></Cell>
+<Cell><Data ss:Type="String">attackCooldown</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Damage</Data></Cell>
+<Cell><Data ss:Type="String">attackDamage</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Damage</Data></Cell>
+<Cell><Data ss:Type="String">attackDamage</Data></Cell>
+<Cell><Data ss:Type="Number">16.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Damage</Data></Cell>
+<Cell><Data ss:Type="String">attackDamage</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Range</Data></Cell>
+<Cell><Data ss:Type="String">attackRange</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Range</Data></Cell>
+<Cell><Data ss:Type="String">attackRange</Data></Cell>
+<Cell><Data ss:Type="Number">2.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Attack Range</Data></Cell>
+<Cell><Data ss:Type="String">attackRange</Data></Cell>
+<Cell><Data ss:Type="Number">2.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="Number">90.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Combat</Data></Cell>
+<Cell><Data ss:Type="String">Max Health</Data></Cell>
+<Cell><Data ss:Type="String">maxHealth</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Movement</Data></Cell>
+<Cell><Data ss:Type="String">Movement Speed</Data></Cell>
+<Cell><Data ss:Type="String">movementSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Movement</Data></Cell>
+<Cell><Data ss:Type="String">Movement Speed</Data></Cell>
+<Cell><Data ss:Type="String">movementSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">3.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy Movement</Data></Cell>
+<Cell><Data ss:Type="String">Movement Speed</Data></Cell>
+<Cell><Data ss:Type="String">movementSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">3.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Death Health %</Data></Cell>
+<Cell><Data ss:Type="String">deathThreshold</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Enemy/EnemyCoins</Data></Cell>
+<Cell><Data ss:Type="String">Is Boss</Data></Cell>
+<Cell><Data ss:Type="String">isBoss</Data></Cell>
+<Cell><Data ss:Type="Number">0.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+<Worksheet ss:Name="Other">
+<Table>
+<Row>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Category</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Stat Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Field Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Base Value</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Items</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Abilities</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI</Data></Cell>
+<Cell><Data ss:Type="String">Detection Radius</Data></Cell>
+<Cell><Data ss:Type="String">detectionRadius</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Combat</Data></Cell>
+<Cell><Data ss:Type="String">Test Damage</Data></Cell>
+<Cell><Data ss:Type="String">damage</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Combat</Data></Cell>
+<Cell><Data ss:Type="String">Test Health</Data></Cell>
+<Cell><Data ss:Type="String">health</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Movement</Data></Cell>
+<Cell><Data ss:Type="String">Test Speed</Data></Cell>
+<Cell><Data ss:Type="String">speed</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Test</Data></Cell>
+<Cell><Data ss:Type="String">Another Stat</Data></Cell>
+<Cell><Data ss:Type="String">anotherStat</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Test</Data></Cell>
+<Cell><Data ss:Type="String">Test Stat</Data></Cell>
+<Cell><Data ss:Type="String">testStat</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Boss Max Dust</Data></Cell>
+<Cell><Data ss:Type="String">bossMaxDustAmount</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Boss Min Dust</Data></Cell>
+<Cell><Data ss:Type="String">bossMinDustAmount</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Dust Amount</Data></Cell>
+<Cell><Data ss:Type="String">maxDustAmount</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Min Dust Amount</Data></Cell>
+<Cell><Data ss:Type="String">minDustAmount</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Buff Duration</Data></Cell>
+<Cell><Data ss:Type="String">collectBuffDuration</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Detonation Damage</Data></Cell>
+<Cell><Data ss:Type="String">detonationDamage</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Detonation Radius</Data></Cell>
+<Cell><Data ss:Type="String">detonationRadius</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Dust Lifetime</Data></Cell>
+<Cell><Data ss:Type="String">lifetimeSeconds</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust</Data></Cell>
+<Cell><Data ss:Type="String">Speed Buff Amount</Data></Cell>
+<Cell><Data ss:Type="String">collectSpeedBuff</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust VFX</Data></Cell>
+<Cell><Data ss:Type="String">Collect Particle Lifetime</Data></Cell>
+<Cell><Data ss:Type="String">collectParticleLifetime</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust VFX</Data></Cell>
+<Cell><Data ss:Type="String">Detonation Particle Count</Data></Cell>
+<Cell><Data ss:Type="String">detonationParticleCount</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Float Amplitude</Data></Cell>
+<Cell><Data ss:Type="String">floatAmplitude</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Float Frequency</Data></Cell>
+<Cell><Data ss:Type="String">floatFrequency</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Pulse Intensity</Data></Cell>
+<Cell><Data ss:Type="String">pulseIntensity</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Pulse Speed</Data></Cell>
+<Cell><Data ss:Type="String">pulseSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time Dust Visual</Data></Cell>
+<Cell><Data ss:Type="String">Rotation Speed</Data></Cell>
+<Cell><Data ss:Type="String">rotationSpeed</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Explosion Force</Data></Cell>
+<Cell><Data ss:Type="String">explosionForce</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Explosion Radius</Data></Cell>
+<Cell><Data ss:Type="String">explosionRadius</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fade Delay</Data></Cell>
+<Cell><Data ss:Type="String">fadeDelay</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Count</Data></Cell>
+<Cell><Data ss:Type="String">fragmentCount</Data></Cell>
+<Cell><Data ss:Type="Number">50.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Destroy Time</Data></Cell>
+<Cell><Data ss:Type="String">fragmentDestroyTime</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Lifetime</Data></Cell>
+<Cell><Data ss:Type="String">fragmentLifetime</Data></Cell>
+<Cell><Data ss:Type="Number">2.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">VFX</Data></Cell>
+<Cell><Data ss:Type="String">Fragment Size</Data></Cell>
+<Cell><Data ss:Type="String">fragmentSize</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+<Worksheet ss:Name="System">
+<Table>
+<Row>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Category</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Stat Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Field Name</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Base Value</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Items</Data></Cell>
+<Cell ss:StyleID="Header"><Data ss:Type="String">Abilities</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Ambush Chance</Data></Cell>
+<Cell><Data ss:Type="String">ambushChance</Data></Cell>
+<Cell><Data ss:Type="Number">0.15</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Ambush Enemy Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">ambushEnemyMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">3.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Base Difficulty Time</Data></Cell>
+<Cell><Data ss:Type="String">baseDifficultyMinutes</Data></Cell>
+<Cell><Data ss:Type="Number">12.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Base Spawn Interval</Data></Cell>
+<Cell><Data ss:Type="String">baseSpawnInterval</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Boss Chance Per Minute</Data></Cell>
+<Cell><Data ss:Type="String">bossChancePerMinute</Data></Cell>
+<Cell><Data ss:Type="Number">0.01</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Boss Cost Scaling</Data></Cell>
+<Cell><Data ss:Type="String">bossCostScaling</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Boss Spawn Chance</Data></Cell>
+<Cell><Data ss:Type="String">bossSpawnChance</Data></Cell>
+<Cell><Data ss:Type="Number">0.05</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Combat Credits Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">combatCreditsMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">1.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Debug Spawn Count</Data></Cell>
+<Cell><Data ss:Type="String">debugSpawnCount</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Gradual Credit Scaling</Data></Cell>
+<Cell><Data ss:Type="String">gradualCreditDifficultyScaling</Data></Cell>
+<Cell><Data ss:Type="Number">0.25</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Gradual Credits Per Second</Data></Cell>
+<Cell><Data ss:Type="String">gradualCreditsPerSecond</Data></Cell>
+<Cell><Data ss:Type="Number">0.50</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Late Game Scale Time</Data></Cell>
+<Cell><Data ss:Type="String">lateGameScaleMinutes</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Late Game Start Time</Data></Cell>
+<Cell><Data ss:Type="String">lateGameStartMinutes</Data></Cell>
+<Cell><Data ss:Type="Number">8.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Credits</Data></Cell>
+<Cell><Data ss:Type="String">maxCredits</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Difficulty Cap</Data></Cell>
+<Cell><Data ss:Type="String">maxDifficultyCap</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Enemies At Once</Data></Cell>
+<Cell><Data ss:Type="String">maxEnemiesAtOnce</Data></Cell>
+<Cell><Data ss:Type="Number">30.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Enemies Per Batch</Data></Cell>
+<Cell><Data ss:Type="String">maxEnemiesPerBatch</Data></Cell>
+<Cell><Data ss:Type="Number">6.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Spawn Attempts</Data></Cell>
+<Cell><Data ss:Type="String">maxSpawnAttempts</Data></Cell>
+<Cell><Data ss:Type="Number">30.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Max Spawn Distance</Data></Cell>
+<Cell><Data ss:Type="String">maxSpawnDistance</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Credits For Spawn</Data></Cell>
+<Cell><Data ss:Type="String">minCreditsForSpawn</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Spawn Distance</Data></Cell>
+<Cell><Data ss:Type="String">minSpawnDistance</Data></Cell>
+<Cell><Data ss:Type="Number">10.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Spawn Interval</Data></Cell>
+<Cell><Data ss:Type="String">minSpawnInterval</Data></Cell>
+<Cell><Data ss:Type="Number">4.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Time Between Ambushes</Data></Cell>
+<Cell><Data ss:Type="String">minTimeBetweenAmbushes</Data></Cell>
+<Cell><Data ss:Type="Number">120.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Min Time Between Bosses</Data></Cell>
+<Cell><Data ss:Type="String">minTimeBetweenBosses</Data></Cell>
+<Cell><Data ss:Type="Number">300.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director</Data></Cell>
+<Cell><Data ss:Type="String">Raycast Height</Data></Cell>
+<Cell><Data ss:Type="String">raycastHeight</Data></Cell>
+<Cell><Data ss:Type="Number">50.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Chance Per Coin Tier</Data></Cell>
+<Cell><Data ss:Type="String">eliteChancePerCoinTier</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Coin Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">eliteCoinMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">1.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Damage Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">eliteDamageMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">20.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Health Multiplier</Data></Cell>
+<Cell><Data ss:Type="String">eliteHealthMultiplier</Data></Cell>
+<Cell><Data ss:Type="Number">100.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AI Director/Elite</Data></Cell>
+<Cell><Data ss:Type="String">Elite Spawn Chance</Data></Cell>
+<Cell><Data ss:Type="String">baseEliteChance</Data></Cell>
+<Cell><Data ss:Type="Number">0.10</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">History Seconds</Data></Cell>
+<Cell><Data ss:Type="String">historySeconds</Data></Cell>
+<Cell><Data ss:Type="Number">5.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Active Trackables</Data></Cell>
+<Cell><Data ss:Type="String">maxActiveTrackables</Data></Cell>
+<Cell><Data ss:Type="Number">200.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Time</Data></Cell>
+<Cell><Data ss:Type="String">Max Tracking Distance</Data></Cell>
+<Cell><Data ss:Type="String">maxTrackingDistance</Data></Cell>
+<Cell><Data ss:Type="Number">50.00</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+<Cell><Data ss:Type="String">None</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>

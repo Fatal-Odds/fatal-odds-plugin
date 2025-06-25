@@ -1,0 +1,339 @@
+FATAL ODDS - STAT REGISTRY REPORT
+Generated: 2025-06-25 21:15:47
+
+SUMMARY STATISTICS
+Total Stats,156
+Unique Owners,4
+Categories,23
+Stats with Items,0
+Stats with Abilities,0
+Unmodified Stats,156
+
+ALL STATS
+Owner,Category,Stat Name,Field Name,Type,Base Value,Description,Affected By Items,Affected By Abilities,Total Modifications
+Player,Economy/Player,Base Boss Coin Value,baseBossCoinValue,CoinSystem,25.00,Base coins dropped by boss enemies,None,None,0
+Player,Economy/Player,Base Enemy Coin Value,baseEnemyCoinValue,CoinSystem,5.00,Base coins dropped by regular enemies,None,None,0
+Player,Economy/Player,Current Coins,currentCoins,CoinSystem,0.00,Player's current coin balance,None,None,0
+Player,Economy/Player,Difficulty Scale Factor,difficultyScaleFactor,CoinSystem,0.20,Multiplier per diff. level,None,None,0
+Player,Economy/Player,Game Progression Multiplier,gameProgressionMultiplier,CoinSystem,1.00,Overall coin multiplier,None,None,0
+Player,Economy/Player,Stage Scale Factor,stageScaleFactor,CoinSystem,0.15,Multiplier increase per stage,None,None,0
+Player,Economy/Player,Time Scale Factor,timeScaleFactor,CoinSystem,0.05,Multiplier increase per second,None,None,0
+Player,Player,Player Character,isPlayerCharacter,ChronoCollapseAbility,1.00,Reference to identify this as player ability,None,None,0
+Player,Player,Player Reference,isPlayerCharacter,TimeAbilityController,1.00,Identifies this as a player character,None,None,0
+Player,Player Abilities,Burst Count,burstCount,ChronoCollapseEffect,1.00,Number of burst particles,None,None,0
+Player,Player Abilities,Chrono Charge Time,chargeSeconds,ChronoCollapseAbility,0.20,Time required to charge Chrono Collapse ability,None,None,0
+Player,Player Abilities,Chrono Cooldown,cooldownSeconds,ChronoCollapseAbility,2.00,Cooldown duration for Chrono Collapse,None,None,0
+Player,Player Abilities,Chrono Energy Cost,energyCost,ChronoCollapseAbility,25.00,Energy required to activate Chrono Collapse,None,None,0
+Player,Player Abilities,Chrono Shake Intensity,shakeIntensity,ChronoCollapseAbility,0.30,Camera shake intensity for Chrono Collapse,None,None,0
+Player,Player Abilities,Chrono Visual Scale,visualScale,ChronoCollapseAbility,1.00,Scale multiplier for Chrono Collapse visual effects,None,None,0
+Player,Player Abilities,Color Intensity,colourIntensity,ChronoCollapseEffect,1.00,Intensity of effect colors,None,None,0
+Player,Player Abilities,Distortion Layers,distortionLayers,ChronoCollapseEffect,1.00,Number of distortion ring layers,None,None,0
+Player,Player Abilities,Distortion Pulse,distortionPulse,ChronoCollapseEffect,1.00,Pulse intensity of distortion,None,None,0
+Player,Player Abilities,Distortion Speed,distortionSpeed,ChronoCollapseEffect,5.00,Speed of distortion animation,None,None,0
+Player,Player Abilities,Effect Duration,effectDuration,ChronoCollapseEffect,1.00,Duration of collapse effect,None,None,0
+Player,Player Abilities,Effect Radius,effectRadius,ChronoCollapseEffect,10.00,Radius of collapse effect,None,None,0
+Player,Player Abilities,Explosion Damage,explosionDamage,ChronoCollapseEffect,20.00,Damage dealt by the explosion (0 = visual only),None,None,0
+Player,Player Abilities,Particle Scale,particleScale,ChronoCollapseEffect,1.00,Scale multiplier for all particles,None,None,0
+Player,Player Abilities,Reversal Count,reversalCount,ChronoCollapseEffect,1.00,Number of reversal particles,None,None,0
+Player,Player Abilities,Ring Spin Speed Max,spinSpeedMax,ChronoCollapseEffect,5.00,Maximum rotation speed for rings,None,None,0
+Player,Player Abilities,Ring Spin Speed Min,spinSpeedMin,ChronoCollapseEffect,5.00,Minimum rotation speed for rings,None,None,0
+Player,Player Abilities,Shard Count,shardCount,ChronoCollapseEffect,1.00,Number of shard particles,None,None,0
+Player,Player Abilities,Shock Ring Count,shockRingCount,ChronoCollapseEffect,1.00,Number of shock rings,None,None,0
+Player,Player Abilities,Shock Ring Thickness,shockRingThickness,ChronoCollapseEffect,1.00,Thickness of shock rings,None,None,0
+Player,Player Abilities,Unfold Time,unfoldTime,ChronoCollapseEffect,1.00,Time for rings to reach full radius,None,None,0
+Player,Player Abilities,Use Time Reversal,useTimeReversal,ChronoCollapseEffect,1.00,Enable time reversal particle effect,None,None,0
+Player,Player Combat,Base Damage,baseDamage,TemporalWeaponController,23.00,Base damage dealt per projectile,None,None,0
+Player,Player Combat,Fire Rate,fireRate,TemporalWeaponController,2.50,How many shots per second the weapon can fire,None,None,0
+Player,Player Combat,Max Ammo,maxAmmo,TemporalWeaponController,8.00,Maximum ammunition capacity,None,None,0
+Player,Player Combat,Player Auto Resurrect Delay,autoResDelay,PlayerHealth,2.00,Time in seconds before automatic resurrection,None,None,0
+Player,Player Combat,Player Invulnerability Duration,invulnTime,PlayerHealth,0.50,Duration of invulnerability after taking damage,None,None,0
+Player,Player Combat,Player Max Health,maxHealth,PlayerHealth,150.00,Maximum player health points,None,None,0
+Player,Player Combat,Projectile Speed,projectileSpeed,TemporalWeaponController,25.00,Speed of fired projectiles,None,None,0
+Player,Player Combat,Reload Speed Multiplier,reloadSpeedMultiplier,TemporalWeaponController,54.00,Speed multiplier for orb motion during reload,None,None,0
+Player,Player Combat,Reload Time,reloadTime,TemporalWeaponController,1.50,Time required to reload weapon,None,None,0
+Player,Player Movement,Aim Lock Duration,aimLockDuration,PlayerMovement,5.00,How long aim lock lasts after shooting,None,None,0
+Player,Player Movement,Air Drag,airDrag,PlayerMovement,0.10,Drag force applied when airborne,None,None,0
+Player,Player Movement,Air Mobility,airMultiplier,PlayerMovement,0.90,Movement control while airborne,None,None,0
+Player,Player Movement,Directional Jump Force,directionalJumpForce,PlayerMovement,3.00,Extra force for directional jumps,None,None,0
+Player,Player Movement,Double Jump Force,doubleJumpForce,PlayerMovement,6.00,Force applied for double jump,None,None,0
+Player,Player Movement,Ground Drag,groundDrag,PlayerMovement,6.00,Drag force applied when grounded,None,None,0
+Player,Player Movement,Jump Cooldown,jumpCooldown,PlayerMovement,0.10,Cooldown between jump attempts,None,None,0
+Player,Player Movement,Jump Force,jumpForce,PlayerMovement,7.00,Force applied when jumping,None,None,0
+Player,Player Movement,Max Jumps,maxJumps,PlayerMovement,2.00,Maximum number of jumps before landing,None,None,0
+Player,Player Movement,Sprint Multiplier,sprintMultiplier,PlayerMovement,1.50,Speed multiplier when sprinting,None,None,0
+Player,Player Movement,Turn Speed,rotationSpeed,PlayerMovement,15.00,How fast the player can turn,None,None,0
+Player,Player Movement,Walk Speed,walkSpeed,PlayerMovement,5.50,Base walking speed of the player,None,None,0
+Player,Player Time,Chrono Collapse Cooldown,chronoCollapseCooldown,TimeAbilityController,8.00,Cooldown time for chrono collapse,None,None,0
+Player,Player Time,Chrono Collapse Cost,chronoCollapseCost,TimeAbilityController,25.00,Energy cost for chrono collapse,None,None,0
+Player,Player Time,Dilation Cooldown,dilationCooldown,TimeAbilityController,3.00,Cooldown time for dilation ability,None,None,0
+Player,Player Time,Dilation Energy Cost,dilationCost,TimeAbilityController,15.00,Energy cost per second for time dilation,None,None,0
+Player,Player Time,Dilation Scale,dilationScale,TimeAbilityController,0.40,Time scale during dilation (0.3 = 30% speed),None,None,0
+Player,Player Time,Energy Regen Delay,timeEnergyRegenDelay,TimeAbilityController,1.50,Delay before energy starts regenerating,None,None,0
+Player,Player Time,Energy Regen Rate,energyRegenRate,TimeAbilityController,10.00,Energy regeneration per second,None,None,0
+Player,Player Time,Freeze Cooldown,freezeCooldown,TimeAbilityController,5.00,Cooldown time for freeze ability,None,None,0
+Player,Player Time,Freeze Duration,freezeDuration,TimeAbilityController,3.00,Duration of temporal freeze,None,None,0
+Player,Player Time,Freeze Energy Cost,freezeCost,TimeAbilityController,20.00,Energy cost for freeze ability,None,None,0
+Player,Player Time,Freeze Radius,freezeRadius,TimeAbilityController,10.00,Radius of freeze effect,None,None,0
+Player,Player Time,Max Time Energy,maxTimeEnergy,TimeAbilityController,100.00,Maximum temporal energy,None,None,0
+Player,Player Time,Rewind Cooldown,rewindCooldown,TimeAbilityController,8.00,Cooldown time for rewind ability,None,None,0
+Player,Player Time,Rewind Duration,rewindDuration,TimeAbilityController,4.00,How far back to rewind,None,None,0
+Player,Player Time,Rewind Energy Cost,rewindCost,TimeAbilityController,30.00,Energy cost for rewind ability,None,None,0
+Player,Player/Health,Low Health Regen Multiplier,lowHealthRegenMultiplier,PlayerRegeneration,1.50,Regen multiplier when health is low,None,None,0
+Player,Player/Health,Regen Delay,regenDelay,PlayerRegeneration,5.00,Time in seconds before regeneration starts,None,None,0
+Player,Player/Health,Regen Percentage,regenPercentagePerSecond,PlayerRegeneration,0.00,Percentage of max health to regenerate per second,None,None,0
+Player,Player/Health,Regen Rate,regenRate,PlayerRegeneration,4.50,Health regenerated per second,None,None,0
+Player,Player/Health,Regen Tick Interval,regenTickInterval,PlayerRegeneration,0.50,Time between regeneration ticks,None,None,0
+Player,Player/UI,Player Health Bar Speed,barLerpSpeed,PlayerHealth,5.00,Speed of health bar animation,None,None,0
+Enemy,AI,Detection Radius,detectionRadius,BaseEnemy,10.00,How far enemy can detect player,None,None,0
+Enemy,AI,Detection Radius,detectionRadius,VikingRaider,15.00,How far enemy can detect player,None,None,0
+Enemy,Economy/EnemyCoins,Max Coins,maxCoinAmount,EnemyCoins,8.00,Maximum coins awarded,None,None,0
+Enemy,Economy/EnemyCoins,Min Coins,minCoinAmount,EnemyCoins,8.00,Minimum coins awarded,None,None,0
+Enemy,Enemy Combat,Attack Cooldown,attackCooldown,BaseEnemy,20.00,Time between attacks,None,None,0
+Enemy,Enemy Combat,Attack Cooldown,attackCooldown,VikingHunter,1.00,Time between attacks,None,None,0
+Enemy,Enemy Combat,Attack Cooldown,attackCooldown,VikingRaider,1.50,Time between attacks,None,None,0
+Enemy,Enemy Combat,Attack Damage,attackDamage,BaseEnemy,20.00,Base enemy attack damage,None,None,0
+Enemy,Enemy Combat,Attack Damage,attackDamage,VikingHunter,16.00,Base enemy attack damage,None,None,0
+Enemy,Enemy Combat,Attack Damage,attackDamage,VikingRaider,20.00,Base enemy attack damage,None,None,0
+Enemy,Enemy Combat,Attack Range,attackRange,BaseEnemy,20.00,Range for melee attacks,None,None,0
+Enemy,Enemy Combat,Attack Range,attackRange,VikingHunter,2.50,Range for melee attacks,None,None,0
+Enemy,Enemy Combat,Attack Range,attackRange,VikingRaider,2.50,Range for melee attacks,None,None,0
+Enemy,Enemy Combat,Max Health,maxHealth,BaseEnemy,100.00,Maximum enemy health points,None,None,0
+Enemy,Enemy Combat,Max Health,maxHealth,VikingHunter,90.00,Maximum enemy health points,None,None,0
+Enemy,Enemy Combat,Max Health,maxHealth,VikingRaider,100.00,Maximum enemy health points,None,None,0
+Enemy,Enemy Movement,Movement Speed,movementSpeed,BaseEnemy,5.00,Enemy movement speed,None,None,0
+Enemy,Enemy Movement,Movement Speed,movementSpeed,VikingHunter,3.50,Enemy movement speed,None,None,0
+Enemy,Enemy Movement,Movement Speed,movementSpeed,VikingRaider,3.50,Enemy movement speed,None,None,0
+Enemy,Enemy/EnemyCoins,Death Health %,deathThreshold,EnemyCoins,0.01,Health percentage below which the enemy is considered dead,None,None,0
+Enemy,Enemy/EnemyCoins,Is Boss,isBoss,EnemyCoins,0.00,Marks this enemy as a boss,None,None,0
+Other,AI,Detection Radius,detectionRadius,VikingHunter,20.00,How far enemy can detect player,None,None,0
+Other,Combat,Test Damage,damage,TestStatsComponent,20.00,Modifies Test Damage,None,None,0
+Other,Combat,Test Health,health,TestStatsComponent,100.00,Modifies Test Health,None,None,0
+Other,Movement,Test Speed,speed,TestStatsComponent,5.00,Modifies Test Speed,None,None,0
+Other,Test,Another Stat,anotherStat,TestStatsComponent,1.00,Modifies Another Stat,None,None,0
+Other,Test,Test Stat,testStat,TestStatsComponent,1.00,Modifies Test Stat,None,None,0
+Other,Time,Boss Max Dust,bossMaxDustAmount,TimeDustSpawner,8.00,Maximum dust from boss enemies,None,None,0
+Other,Time,Boss Min Dust,bossMinDustAmount,TimeDustSpawner,5.00,Minimum dust from boss enemies,None,None,0
+Other,Time,Max Dust Amount,maxDustAmount,TimeDustSpawner,3.00,Maximum time dust spawned,None,None,0
+Other,Time,Min Dust Amount,minDustAmount,TimeDustSpawner,1.00,Minimum time dust spawned,None,None,0
+Other,Time Dust,Buff Duration,collectBuffDuration,TimeDust,1.00,How long the speed buff lasts after collection,None,None,0
+Other,Time Dust,Detonation Damage,detonationDamage,TimeDust,20.00,Damage dealt when dust is detonated by Chrono Collapse,None,None,0
+Other,Time Dust,Detonation Radius,detonationRadius,TimeDust,10.00,Explosion radius when detonated,None,None,0
+Other,Time Dust,Dust Lifetime,lifetimeSeconds,TimeDust,1.00,How long dust exists before despawning,None,None,0
+Other,Time Dust,Speed Buff Amount,collectSpeedBuff,TimeDust,5.00,Movement speed bonus percentage when collected,None,None,0
+Other,Time Dust VFX,Collect Particle Lifetime,collectParticleLifetime,TimeDust,1.00,How long collect particles last,None,None,0
+Other,Time Dust VFX,Detonation Particle Count,detonationParticleCount,TimeDust,1.00,Number of particles in detonation effect,None,None,0
+Other,Time Dust Visual,Float Amplitude,floatAmplitude,TimeDust,1.00,How high/low the dust bobs while floating,None,None,0
+Other,Time Dust Visual,Float Frequency,floatFrequency,TimeDust,1.00,How fast the floating animation cycles,None,None,0
+Other,Time Dust Visual,Pulse Intensity,pulseIntensity,TimeDust,1.00,Intensity of the pulsing effect,None,None,0
+Other,Time Dust Visual,Pulse Speed,pulseSpeed,TimeDust,5.00,Speed of the pulsing glow animation,None,None,0
+Other,Time Dust Visual,Rotation Speed,rotationSpeed,TimeDust,5.00,How fast the dust rotates,None,None,0
+Other,VFX,Explosion Force,explosionForce,TimeFragmentDeathEffect,10.00,Force applied to fragments on death,None,None,0
+Other,VFX,Explosion Radius,explosionRadius,TimeFragmentDeathEffect,3.00,Radius of the death explosion effect,None,None,0
+Other,VFX,Fade Delay,fadeDelay,TimeFragmentDeathEffect,0.50,Delay before fragments start fading,None,None,0
+Other,VFX,Fragment Count,fragmentCount,TimeFragmentDeathEffect,50.00,Number of fragments spawned on death,None,None,0
+Other,VFX,Fragment Destroy Time,fragmentDestroyTime,TimeFragmentDeathEffect,1.00,How long before fragments are destroyed (to prevent collision),None,None,0
+Other,VFX,Fragment Lifetime,fragmentLifetime,TimeFragmentDeathEffect,2.00,How long fragments exist before fading,None,None,0
+Other,VFX,Fragment Size,fragmentSize,TimeFragmentDeathEffect,0.10,Size of individual fragments,None,None,0
+System,AI Director,Ambush Chance,ambushChance,AIDirector,0.15,Chance of an ambush event (0-1),None,None,0
+System,AI Director,Ambush Enemy Multiplier,ambushEnemyMultiplier,AIDirector,3.00,Multiplier for the number of enemies in an ambush,None,None,0
+System,AI Director,Base Difficulty Time,baseDifficultyMinutes,AIDirector,12.00,Minutes until difficulty reaches 1.0,None,None,0
+System,AI Director,Base Spawn Interval,baseSpawnInterval,AIDirector,10.00,Base spawn interval in seconds,None,None,0
+System,AI Director,Boss Chance Per Minute,bossChancePerMinute,AIDirector,0.01,Additional boss chance per minute of game time,None,None,0
+System,AI Director,Boss Cost Scaling,bossCostScaling,AIDirector,1.50,How much the boss credit cost scales with difficulty,None,None,0
+System,AI Director,Boss Spawn Chance,bossSpawnChance,AIDirector,0.05,Chance of a boss spawning instead of regular enemies,None,None,0
+System,AI Director,Combat Credits Multiplier,combatCreditsMultiplier,AIDirector,1.50,Combat engagement bonus multiplier,None,None,0
+System,AI Director,Debug Spawn Count,debugSpawnCount,AIDirector,6.00,Number of enemies spawned when debug key is pressed,None,None,0
+System,AI Director,Gradual Credit Scaling,gradualCreditDifficultyScaling,AIDirector,0.25,How much credits scale with difficulty (reduced),None,None,0
+System,AI Director,Gradual Credits Per Second,gradualCreditsPerSecond,AIDirector,0.50,Base credits per second (reduced for longer gameplay),None,None,0
+System,AI Director,Late Game Scale Time,lateGameScaleMinutes,AIDirector,20.00,Minutes for late-game scaling to reach full effect,None,None,0
+System,AI Director,Late Game Start Time,lateGameStartMinutes,AIDirector,8.00,Minutes before late-game scaling begins,None,None,0
+System,AI Director,Max Credits,maxCredits,AIDirector,100.00,Maximum credits that can be accumulated,None,None,0
+System,AI Director,Max Difficulty Cap,maxDifficultyCap,AIDirector,10.00,Maximum difficulty cap,None,None,0
+System,AI Director,Max Enemies At Once,maxEnemiesAtOnce,AIDirector,30.00,Maximum number of enemies at once,None,None,0
+System,AI Director,Max Enemies Per Batch,maxEnemiesPerBatch,AIDirector,6.00,Maximum number of enemies in a spawn batch,None,None,0
+System,AI Director,Max Spawn Attempts,maxSpawnAttempts,AIDirector,30.00,Maximum attempts to find a valid spawn position,None,None,0
+System,AI Director,Max Spawn Distance,maxSpawnDistance,AIDirector,20.00,Maximum distance from player to spawn enemies,None,None,0
+System,AI Director,Min Credits For Spawn,minCreditsForSpawn,AIDirector,10.00,Minimum credits needed to attempt a spawn,None,None,0
+System,AI Director,Min Spawn Distance,minSpawnDistance,AIDirector,10.00,Minimum distance from player to spawn enemies,None,None,0
+System,AI Director,Min Spawn Interval,minSpawnInterval,AIDirector,4.00,Minimum spawn interval (at high difficulty),None,None,0
+System,AI Director,Min Time Between Ambushes,minTimeBetweenAmbushes,AIDirector,120.00,Minimum time between ambush events (seconds),None,None,0
+System,AI Director,Min Time Between Bosses,minTimeBetweenBosses,AIDirector,300.00,Minimum time between boss spawns (seconds),None,None,0
+System,AI Director,Raycast Height,raycastHeight,AIDirector,50.00,Vertical offset for raycasting to find ground,None,None,0
+System,AI Director/Elite,Elite Chance Per Coin Tier,eliteChancePerCoinTier,EnemySpawnIntegration,0.10,Additional elite chance per 50 coins,None,None,0
+System,AI Director/Elite,Elite Coin Multiplier,eliteCoinMultiplier,EnemySpawnIntegration,1.00,Coin reward multiplier for elite enemies,None,None,0
+System,AI Director/Elite,Elite Damage Multiplier,eliteDamageMultiplier,EnemySpawnIntegration,20.00,Damage bonus for elite enemies,None,None,0
+System,AI Director/Elite,Elite Health Multiplier,eliteHealthMultiplier,EnemySpawnIntegration,100.00,Health bonus for elite enemies,None,None,0
+System,AI Director/Elite,Elite Spawn Chance,baseEliteChance,EnemySpawnIntegration,0.10,Base chance for elite enemy spawn,None,None,0
+System,Time,History Seconds,historySeconds,TimeDirector,5.00,How many seconds of history to keep,None,None,0
+System,Time,Max Active Trackables,maxActiveTrackables,TimeDirector,200.00,Maximum number of tracked objects,None,None,0
+System,Time,Max Tracking Distance,maxTrackingDistance,TimeDirector,50.00,Maximum distance to track objects,None,None,0
+
+STATS BY OWNER
+ENEMY (21 stats)
+Category,Stat Name,Field Name,Base Value,Items Count,Abilities Count
+AI,Detection Radius,detectionRadius,10.00,0,0
+AI,Detection Radius,detectionRadius,15.00,0,0
+Economy/EnemyCoins,Max Coins,maxCoinAmount,8.00,0,0
+Economy/EnemyCoins,Min Coins,minCoinAmount,8.00,0,0
+Enemy Combat,Attack Cooldown,attackCooldown,20.00,0,0
+Enemy Combat,Attack Cooldown,attackCooldown,1.00,0,0
+Enemy Combat,Attack Cooldown,attackCooldown,1.50,0,0
+Enemy Combat,Attack Damage,attackDamage,20.00,0,0
+Enemy Combat,Attack Damage,attackDamage,16.00,0,0
+Enemy Combat,Attack Damage,attackDamage,20.00,0,0
+Enemy Combat,Attack Range,attackRange,20.00,0,0
+Enemy Combat,Attack Range,attackRange,2.50,0,0
+Enemy Combat,Attack Range,attackRange,2.50,0,0
+Enemy Combat,Max Health,maxHealth,100.00,0,0
+Enemy Combat,Max Health,maxHealth,90.00,0,0
+Enemy Combat,Max Health,maxHealth,100.00,0,0
+Enemy Movement,Movement Speed,movementSpeed,5.00,0,0
+Enemy Movement,Movement Speed,movementSpeed,3.50,0,0
+Enemy Movement,Movement Speed,movementSpeed,3.50,0,0
+Enemy/EnemyCoins,Death Health %,deathThreshold,0.01,0,0
+Enemy/EnemyCoins,Is Boss,isBoss,0.00,0,0
+
+OTHER (29 stats)
+Category,Stat Name,Field Name,Base Value,Items Count,Abilities Count
+AI,Detection Radius,detectionRadius,20.00,0,0
+Combat,Test Damage,damage,20.00,0,0
+Combat,Test Health,health,100.00,0,0
+Movement,Test Speed,speed,5.00,0,0
+Test,Another Stat,anotherStat,1.00,0,0
+Test,Test Stat,testStat,1.00,0,0
+Time,Boss Max Dust,bossMaxDustAmount,8.00,0,0
+Time,Boss Min Dust,bossMinDustAmount,5.00,0,0
+Time,Max Dust Amount,maxDustAmount,3.00,0,0
+Time,Min Dust Amount,minDustAmount,1.00,0,0
+Time Dust,Buff Duration,collectBuffDuration,1.00,0,0
+Time Dust,Detonation Damage,detonationDamage,20.00,0,0
+Time Dust,Detonation Radius,detonationRadius,10.00,0,0
+Time Dust,Dust Lifetime,lifetimeSeconds,1.00,0,0
+Time Dust,Speed Buff Amount,collectSpeedBuff,5.00,0,0
+Time Dust VFX,Collect Particle Lifetime,collectParticleLifetime,1.00,0,0
+Time Dust VFX,Detonation Particle Count,detonationParticleCount,1.00,0,0
+Time Dust Visual,Float Amplitude,floatAmplitude,1.00,0,0
+Time Dust Visual,Float Frequency,floatFrequency,1.00,0,0
+Time Dust Visual,Pulse Intensity,pulseIntensity,1.00,0,0
+Time Dust Visual,Pulse Speed,pulseSpeed,5.00,0,0
+Time Dust Visual,Rotation Speed,rotationSpeed,5.00,0,0
+VFX,Explosion Force,explosionForce,10.00,0,0
+VFX,Explosion Radius,explosionRadius,3.00,0,0
+VFX,Fade Delay,fadeDelay,0.50,0,0
+VFX,Fragment Count,fragmentCount,50.00,0,0
+VFX,Fragment Destroy Time,fragmentDestroyTime,1.00,0,0
+VFX,Fragment Lifetime,fragmentLifetime,2.00,0,0
+VFX,Fragment Size,fragmentSize,0.10,0,0
+
+PLAYER (73 stats)
+Category,Stat Name,Field Name,Base Value,Items Count,Abilities Count
+Economy/Player,Base Boss Coin Value,baseBossCoinValue,25.00,0,0
+Economy/Player,Base Enemy Coin Value,baseEnemyCoinValue,5.00,0,0
+Economy/Player,Current Coins,currentCoins,0.00,0,0
+Economy/Player,Difficulty Scale Factor,difficultyScaleFactor,0.20,0,0
+Economy/Player,Game Progression Multiplier,gameProgressionMultiplier,1.00,0,0
+Economy/Player,Stage Scale Factor,stageScaleFactor,0.15,0,0
+Economy/Player,Time Scale Factor,timeScaleFactor,0.05,0,0
+Player,Player Character,isPlayerCharacter,1.00,0,0
+Player,Player Reference,isPlayerCharacter,1.00,0,0
+Player Abilities,Burst Count,burstCount,1.00,0,0
+Player Abilities,Chrono Charge Time,chargeSeconds,0.20,0,0
+Player Abilities,Chrono Cooldown,cooldownSeconds,2.00,0,0
+Player Abilities,Chrono Energy Cost,energyCost,25.00,0,0
+Player Abilities,Chrono Shake Intensity,shakeIntensity,0.30,0,0
+Player Abilities,Chrono Visual Scale,visualScale,1.00,0,0
+Player Abilities,Color Intensity,colourIntensity,1.00,0,0
+Player Abilities,Distortion Layers,distortionLayers,1.00,0,0
+Player Abilities,Distortion Pulse,distortionPulse,1.00,0,0
+Player Abilities,Distortion Speed,distortionSpeed,5.00,0,0
+Player Abilities,Effect Duration,effectDuration,1.00,0,0
+Player Abilities,Effect Radius,effectRadius,10.00,0,0
+Player Abilities,Explosion Damage,explosionDamage,20.00,0,0
+Player Abilities,Particle Scale,particleScale,1.00,0,0
+Player Abilities,Reversal Count,reversalCount,1.00,0,0
+Player Abilities,Ring Spin Speed Max,spinSpeedMax,5.00,0,0
+Player Abilities,Ring Spin Speed Min,spinSpeedMin,5.00,0,0
+Player Abilities,Shard Count,shardCount,1.00,0,0
+Player Abilities,Shock Ring Count,shockRingCount,1.00,0,0
+Player Abilities,Shock Ring Thickness,shockRingThickness,1.00,0,0
+Player Abilities,Unfold Time,unfoldTime,1.00,0,0
+Player Abilities,Use Time Reversal,useTimeReversal,1.00,0,0
+Player Combat,Base Damage,baseDamage,23.00,0,0
+Player Combat,Fire Rate,fireRate,2.50,0,0
+Player Combat,Max Ammo,maxAmmo,8.00,0,0
+Player Combat,Player Auto Resurrect Delay,autoResDelay,2.00,0,0
+Player Combat,Player Invulnerability Duration,invulnTime,0.50,0,0
+Player Combat,Player Max Health,maxHealth,150.00,0,0
+Player Combat,Projectile Speed,projectileSpeed,25.00,0,0
+Player Combat,Reload Speed Multiplier,reloadSpeedMultiplier,54.00,0,0
+Player Combat,Reload Time,reloadTime,1.50,0,0
+Player Movement,Aim Lock Duration,aimLockDuration,5.00,0,0
+Player Movement,Air Drag,airDrag,0.10,0,0
+Player Movement,Air Mobility,airMultiplier,0.90,0,0
+Player Movement,Directional Jump Force,directionalJumpForce,3.00,0,0
+Player Movement,Double Jump Force,doubleJumpForce,6.00,0,0
+Player Movement,Ground Drag,groundDrag,6.00,0,0
+Player Movement,Jump Cooldown,jumpCooldown,0.10,0,0
+Player Movement,Jump Force,jumpForce,7.00,0,0
+Player Movement,Max Jumps,maxJumps,2.00,0,0
+Player Movement,Sprint Multiplier,sprintMultiplier,1.50,0,0
+Player Movement,Turn Speed,rotationSpeed,15.00,0,0
+Player Movement,Walk Speed,walkSpeed,5.50,0,0
+Player Time,Chrono Collapse Cooldown,chronoCollapseCooldown,8.00,0,0
+Player Time,Chrono Collapse Cost,chronoCollapseCost,25.00,0,0
+Player Time,Dilation Cooldown,dilationCooldown,3.00,0,0
+Player Time,Dilation Energy Cost,dilationCost,15.00,0,0
+Player Time,Dilation Scale,dilationScale,0.40,0,0
+Player Time,Energy Regen Delay,timeEnergyRegenDelay,1.50,0,0
+Player Time,Energy Regen Rate,energyRegenRate,10.00,0,0
+Player Time,Freeze Cooldown,freezeCooldown,5.00,0,0
+Player Time,Freeze Duration,freezeDuration,3.00,0,0
+Player Time,Freeze Energy Cost,freezeCost,20.00,0,0
+Player Time,Freeze Radius,freezeRadius,10.00,0,0
+Player Time,Max Time Energy,maxTimeEnergy,100.00,0,0
+Player Time,Rewind Cooldown,rewindCooldown,8.00,0,0
+Player Time,Rewind Duration,rewindDuration,4.00,0,0
+Player Time,Rewind Energy Cost,rewindCost,30.00,0,0
+Player/Health,Low Health Regen Multiplier,lowHealthRegenMultiplier,1.50,0,0
+Player/Health,Regen Delay,regenDelay,5.00,0,0
+Player/Health,Regen Percentage,regenPercentagePerSecond,0.00,0,0
+Player/Health,Regen Rate,regenRate,4.50,0,0
+Player/Health,Regen Tick Interval,regenTickInterval,0.50,0,0
+Player/UI,Player Health Bar Speed,barLerpSpeed,5.00,0,0
+
+SYSTEM (33 stats)
+Category,Stat Name,Field Name,Base Value,Items Count,Abilities Count
+AI Director,Ambush Chance,ambushChance,0.15,0,0
+AI Director,Ambush Enemy Multiplier,ambushEnemyMultiplier,3.00,0,0
+AI Director,Base Difficulty Time,baseDifficultyMinutes,12.00,0,0
+AI Director,Base Spawn Interval,baseSpawnInterval,10.00,0,0
+AI Director,Boss Chance Per Minute,bossChancePerMinute,0.01,0,0
+AI Director,Boss Cost Scaling,bossCostScaling,1.50,0,0
+AI Director,Boss Spawn Chance,bossSpawnChance,0.05,0,0
+AI Director,Combat Credits Multiplier,combatCreditsMultiplier,1.50,0,0
+AI Director,Debug Spawn Count,debugSpawnCount,6.00,0,0
+AI Director,Gradual Credit Scaling,gradualCreditDifficultyScaling,0.25,0,0
+AI Director,Gradual Credits Per Second,gradualCreditsPerSecond,0.50,0,0
+AI Director,Late Game Scale Time,lateGameScaleMinutes,20.00,0,0
+AI Director,Late Game Start Time,lateGameStartMinutes,8.00,0,0
+AI Director,Max Credits,maxCredits,100.00,0,0
+AI Director,Max Difficulty Cap,maxDifficultyCap,10.00,0,0
+AI Director,Max Enemies At Once,maxEnemiesAtOnce,30.00,0,0
+AI Director,Max Enemies Per Batch,maxEnemiesPerBatch,6.00,0,0
+AI Director,Max Spawn Attempts,maxSpawnAttempts,30.00,0,0
+AI Director,Max Spawn Distance,maxSpawnDistance,20.00,0,0
+AI Director,Min Credits For Spawn,minCreditsForSpawn,10.00,0,0
+AI Director,Min Spawn Distance,minSpawnDistance,10.00,0,0
+AI Director,Min Spawn Interval,minSpawnInterval,4.00,0,0
+AI Director,Min Time Between Ambushes,minTimeBetweenAmbushes,120.00,0,0
+AI Director,Min Time Between Bosses,minTimeBetweenBosses,300.00,0,0
+AI Director,Raycast Height,raycastHeight,50.00,0,0
+AI Director/Elite,Elite Chance Per Coin Tier,eliteChancePerCoinTier,0.10,0,0
+AI Director/Elite,Elite Coin Multiplier,eliteCoinMultiplier,1.00,0,0
+AI Director/Elite,Elite Damage Multiplier,eliteDamageMultiplier,20.00,0,0
+AI Director/Elite,Elite Health Multiplier,eliteHealthMultiplier,100.00,0,0
+AI Director/Elite,Elite Spawn Chance,baseEliteChance,0.10,0,0
+Time,History Seconds,historySeconds,5.00,0,0
+Time,Max Active Trackables,maxActiveTrackables,200.00,0,0
+Time,Max Tracking Distance,maxTrackingDistance,50.00,0,0
+

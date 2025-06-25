@@ -1,0 +1,157 @@
+Owner,Category,Stat Name,Field Name,Type,Base Value,Description,Items Count,Abilities Count,Items List,Abilities List
+"Player","Economy/Player","Base Boss Coin Value","baseBossCoinValue","CoinSystem",25.00,"Base coins dropped by boss enemies",0,0,None,None
+"Player","Economy/Player","Base Enemy Coin Value","baseEnemyCoinValue","CoinSystem",5.00,"Base coins dropped by regular enemies",0,0,None,None
+"Player","Economy/Player","Current Coins","currentCoins","CoinSystem",0.00,"Player's current coin balance",0,0,None,None
+"Player","Economy/Player","Difficulty Scale Factor","difficultyScaleFactor","CoinSystem",0.20,"Multiplier per diff. level",0,0,None,None
+"Player","Economy/Player","Game Progression Multiplier","gameProgressionMultiplier","CoinSystem",1.00,"Overall coin multiplier",0,0,None,None
+"Player","Economy/Player","Stage Scale Factor","stageScaleFactor","CoinSystem",0.15,"Multiplier increase per stage",0,0,None,None
+"Player","Economy/Player","Time Scale Factor","timeScaleFactor","CoinSystem",0.05,"Multiplier increase per second",0,0,None,None
+"Player","Player","Player Character","isPlayerCharacter","ChronoCollapseAbility",1.00,"Reference to identify this as player ability",0,0,None,None
+"Player","Player","Player Reference","isPlayerCharacter","TimeAbilityController",1.00,"Identifies this as a player character",0,0,None,None
+"Player","Player Abilities","Burst Count","burstCount","ChronoCollapseEffect",1.00,"Number of burst particles",0,0,None,None
+"Player","Player Abilities","Chrono Charge Time","chargeSeconds","ChronoCollapseAbility",0.20,"Time required to charge Chrono Collapse ability",0,0,None,None
+"Player","Player Abilities","Chrono Cooldown","cooldownSeconds","ChronoCollapseAbility",2.00,"Cooldown duration for Chrono Collapse",0,0,None,None
+"Player","Player Abilities","Chrono Energy Cost","energyCost","ChronoCollapseAbility",25.00,"Energy required to activate Chrono Collapse",0,0,None,None
+"Player","Player Abilities","Chrono Shake Intensity","shakeIntensity","ChronoCollapseAbility",0.30,"Camera shake intensity for Chrono Collapse",0,0,None,None
+"Player","Player Abilities","Chrono Visual Scale","visualScale","ChronoCollapseAbility",1.00,"Scale multiplier for Chrono Collapse visual effects",0,0,None,None
+"Player","Player Abilities","Color Intensity","colourIntensity","ChronoCollapseEffect",1.00,"Intensity of effect colors",0,0,None,None
+"Player","Player Abilities","Distortion Layers","distortionLayers","ChronoCollapseEffect",1.00,"Number of distortion ring layers",0,0,None,None
+"Player","Player Abilities","Distortion Pulse","distortionPulse","ChronoCollapseEffect",1.00,"Pulse intensity of distortion",0,0,None,None
+"Player","Player Abilities","Distortion Speed","distortionSpeed","ChronoCollapseEffect",5.00,"Speed of distortion animation",0,0,None,None
+"Player","Player Abilities","Effect Duration","effectDuration","ChronoCollapseEffect",1.00,"Duration of collapse effect",0,0,None,None
+"Player","Player Abilities","Effect Radius","effectRadius","ChronoCollapseEffect",10.00,"Radius of collapse effect",0,0,None,None
+"Player","Player Abilities","Explosion Damage","explosionDamage","ChronoCollapseEffect",20.00,"Damage dealt by the explosion (0 = visual only)",0,0,None,None
+"Player","Player Abilities","Particle Scale","particleScale","ChronoCollapseEffect",1.00,"Scale multiplier for all particles",0,0,None,None
+"Player","Player Abilities","Reversal Count","reversalCount","ChronoCollapseEffect",1.00,"Number of reversal particles",0,0,None,None
+"Player","Player Abilities","Ring Spin Speed Max","spinSpeedMax","ChronoCollapseEffect",5.00,"Maximum rotation speed for rings",0,0,None,None
+"Player","Player Abilities","Ring Spin Speed Min","spinSpeedMin","ChronoCollapseEffect",5.00,"Minimum rotation speed for rings",0,0,None,None
+"Player","Player Abilities","Shard Count","shardCount","ChronoCollapseEffect",1.00,"Number of shard particles",0,0,None,None
+"Player","Player Abilities","Shock Ring Count","shockRingCount","ChronoCollapseEffect",1.00,"Number of shock rings",0,0,None,None
+"Player","Player Abilities","Shock Ring Thickness","shockRingThickness","ChronoCollapseEffect",1.00,"Thickness of shock rings",0,0,None,None
+"Player","Player Abilities","Unfold Time","unfoldTime","ChronoCollapseEffect",1.00,"Time for rings to reach full radius",0,0,None,None
+"Player","Player Abilities","Use Time Reversal","useTimeReversal","ChronoCollapseEffect",1.00,"Enable time reversal particle effect",0,0,None,None
+"Player","Player Combat","Base Damage","baseDamage","TemporalWeaponController",23.00,"Base damage dealt per projectile",0,0,None,None
+"Player","Player Combat","Fire Rate","fireRate","TemporalWeaponController",2.50,"How many shots per second the weapon can fire",0,0,None,None
+"Player","Player Combat","Max Ammo","maxAmmo","TemporalWeaponController",8.00,"Maximum ammunition capacity",0,0,None,None
+"Player","Player Combat","Player Auto Resurrect Delay","autoResDelay","PlayerHealth",2.00,"Time in seconds before automatic resurrection",0,0,None,None
+"Player","Player Combat","Player Invulnerability Duration","invulnTime","PlayerHealth",0.50,"Duration of invulnerability after taking damage",0,0,None,None
+"Player","Player Combat","Player Max Health","maxHealth","PlayerHealth",150.00,"Maximum player health points",0,0,None,None
+"Player","Player Combat","Projectile Speed","projectileSpeed","TemporalWeaponController",25.00,"Speed of fired projectiles",0,0,None,None
+"Player","Player Combat","Reload Speed Multiplier","reloadSpeedMultiplier","TemporalWeaponController",54.00,"Speed multiplier for orb motion during reload",0,0,None,None
+"Player","Player Combat","Reload Time","reloadTime","TemporalWeaponController",1.50,"Time required to reload weapon",0,0,None,None
+"Player","Player Movement","Aim Lock Duration","aimLockDuration","PlayerMovement",5.00,"How long aim lock lasts after shooting",0,0,None,None
+"Player","Player Movement","Air Drag","airDrag","PlayerMovement",0.10,"Drag force applied when airborne",0,0,None,None
+"Player","Player Movement","Air Mobility","airMultiplier","PlayerMovement",0.90,"Movement control while airborne",0,0,None,None
+"Player","Player Movement","Directional Jump Force","directionalJumpForce","PlayerMovement",3.00,"Extra force for directional jumps",0,0,None,None
+"Player","Player Movement","Double Jump Force","doubleJumpForce","PlayerMovement",6.00,"Force applied for double jump",0,0,None,None
+"Player","Player Movement","Ground Drag","groundDrag","PlayerMovement",6.00,"Drag force applied when grounded",0,0,None,None
+"Player","Player Movement","Jump Cooldown","jumpCooldown","PlayerMovement",0.10,"Cooldown between jump attempts",0,0,None,None
+"Player","Player Movement","Jump Force","jumpForce","PlayerMovement",7.00,"Force applied when jumping",0,0,None,None
+"Player","Player Movement","Max Jumps","maxJumps","PlayerMovement",2.00,"Maximum number of jumps before landing",0,0,None,None
+"Player","Player Movement","Sprint Multiplier","sprintMultiplier","PlayerMovement",1.50,"Speed multiplier when sprinting",0,0,None,None
+"Player","Player Movement","Turn Speed","rotationSpeed","PlayerMovement",15.00,"How fast the player can turn",0,0,None,None
+"Player","Player Movement","Walk Speed","walkSpeed","PlayerMovement",5.50,"Base walking speed of the player",0,0,None,None
+"Player","Player Time","Chrono Collapse Cooldown","chronoCollapseCooldown","TimeAbilityController",8.00,"Cooldown time for chrono collapse",0,0,None,None
+"Player","Player Time","Chrono Collapse Cost","chronoCollapseCost","TimeAbilityController",25.00,"Energy cost for chrono collapse",0,0,None,None
+"Player","Player Time","Dilation Cooldown","dilationCooldown","TimeAbilityController",3.00,"Cooldown time for dilation ability",0,0,None,None
+"Player","Player Time","Dilation Energy Cost","dilationCost","TimeAbilityController",15.00,"Energy cost per second for time dilation",0,0,None,None
+"Player","Player Time","Dilation Scale","dilationScale","TimeAbilityController",0.40,"Time scale during dilation (0.3 = 30% speed)",0,0,None,None
+"Player","Player Time","Energy Regen Delay","timeEnergyRegenDelay","TimeAbilityController",1.50,"Delay before energy starts regenerating",0,0,None,None
+"Player","Player Time","Energy Regen Rate","energyRegenRate","TimeAbilityController",10.00,"Energy regeneration per second",0,0,None,None
+"Player","Player Time","Freeze Cooldown","freezeCooldown","TimeAbilityController",5.00,"Cooldown time for freeze ability",0,0,None,None
+"Player","Player Time","Freeze Duration","freezeDuration","TimeAbilityController",3.00,"Duration of temporal freeze",0,0,None,None
+"Player","Player Time","Freeze Energy Cost","freezeCost","TimeAbilityController",20.00,"Energy cost for freeze ability",0,0,None,None
+"Player","Player Time","Freeze Radius","freezeRadius","TimeAbilityController",10.00,"Radius of freeze effect",0,0,None,None
+"Player","Player Time","Max Time Energy","maxTimeEnergy","TimeAbilityController",100.00,"Maximum temporal energy",0,0,None,None
+"Player","Player Time","Rewind Cooldown","rewindCooldown","TimeAbilityController",8.00,"Cooldown time for rewind ability",0,0,None,None
+"Player","Player Time","Rewind Duration","rewindDuration","TimeAbilityController",4.00,"How far back to rewind",0,0,None,None
+"Player","Player Time","Rewind Energy Cost","rewindCost","TimeAbilityController",30.00,"Energy cost for rewind ability",0,0,None,None
+"Player","Player/Health","Low Health Regen Multiplier","lowHealthRegenMultiplier","PlayerRegeneration",1.50,"Regen multiplier when health is low",0,0,None,None
+"Player","Player/Health","Regen Delay","regenDelay","PlayerRegeneration",5.00,"Time in seconds before regeneration starts",0,0,None,None
+"Player","Player/Health","Regen Percentage","regenPercentagePerSecond","PlayerRegeneration",0.00,"Percentage of max health to regenerate per second",0,0,None,None
+"Player","Player/Health","Regen Rate","regenRate","PlayerRegeneration",4.50,"Health regenerated per second",0,0,None,None
+"Player","Player/Health","Regen Tick Interval","regenTickInterval","PlayerRegeneration",0.50,"Time between regeneration ticks",0,0,None,None
+"Player","Player/UI","Player Health Bar Speed","barLerpSpeed","PlayerHealth",5.00,"Speed of health bar animation",0,0,None,None
+"Enemy","AI","Detection Radius","detectionRadius","BaseEnemy",10.00,"How far enemy can detect player",0,0,None,None
+"Enemy","AI","Detection Radius","detectionRadius","VikingRaider",15.00,"How far enemy can detect player",0,0,None,None
+"Enemy","Economy/EnemyCoins","Max Coins","maxCoinAmount","EnemyCoins",8.00,"Maximum coins awarded",0,0,None,None
+"Enemy","Economy/EnemyCoins","Min Coins","minCoinAmount","EnemyCoins",8.00,"Minimum coins awarded",0,0,None,None
+"Enemy","Enemy Combat","Attack Cooldown","attackCooldown","BaseEnemy",20.00,"Time between attacks",0,0,None,None
+"Enemy","Enemy Combat","Attack Cooldown","attackCooldown","VikingHunter",1.00,"Time between attacks",0,0,None,None
+"Enemy","Enemy Combat","Attack Cooldown","attackCooldown","VikingRaider",1.50,"Time between attacks",0,0,None,None
+"Enemy","Enemy Combat","Attack Damage","attackDamage","BaseEnemy",20.00,"Base enemy attack damage",0,0,None,None
+"Enemy","Enemy Combat","Attack Damage","attackDamage","VikingHunter",16.00,"Base enemy attack damage",0,0,None,None
+"Enemy","Enemy Combat","Attack Damage","attackDamage","VikingRaider",20.00,"Base enemy attack damage",0,0,None,None
+"Enemy","Enemy Combat","Attack Range","attackRange","BaseEnemy",20.00,"Range for melee attacks",0,0,None,None
+"Enemy","Enemy Combat","Attack Range","attackRange","VikingHunter",2.50,"Range for melee attacks",0,0,None,None
+"Enemy","Enemy Combat","Attack Range","attackRange","VikingRaider",2.50,"Range for melee attacks",0,0,None,None
+"Enemy","Enemy Combat","Max Health","maxHealth","BaseEnemy",100.00,"Maximum enemy health points",0,0,None,None
+"Enemy","Enemy Combat","Max Health","maxHealth","VikingHunter",90.00,"Maximum enemy health points",0,0,None,None
+"Enemy","Enemy Combat","Max Health","maxHealth","VikingRaider",100.00,"Maximum enemy health points",0,0,None,None
+"Enemy","Enemy Movement","Movement Speed","movementSpeed","BaseEnemy",5.00,"Enemy movement speed",0,0,None,None
+"Enemy","Enemy Movement","Movement Speed","movementSpeed","VikingHunter",3.50,"Enemy movement speed",0,0,None,None
+"Enemy","Enemy Movement","Movement Speed","movementSpeed","VikingRaider",3.50,"Enemy movement speed",0,0,None,None
+"Enemy","Enemy/EnemyCoins","Death Health %","deathThreshold","EnemyCoins",0.01,"Health percentage below which the enemy is considered dead",0,0,None,None
+"Enemy","Enemy/EnemyCoins","Is Boss","isBoss","EnemyCoins",0.00,"Marks this enemy as a boss",0,0,None,None
+"Other","AI","Detection Radius","detectionRadius","VikingHunter",20.00,"How far enemy can detect player",0,0,None,None
+"Other","Combat","Test Damage","damage","TestStatsComponent",20.00,"Modifies Test Damage",0,0,None,None
+"Other","Combat","Test Health","health","TestStatsComponent",100.00,"Modifies Test Health",0,0,None,None
+"Other","Movement","Test Speed","speed","TestStatsComponent",5.00,"Modifies Test Speed",0,0,None,None
+"Other","Test","Another Stat","anotherStat","TestStatsComponent",1.00,"Modifies Another Stat",0,0,None,None
+"Other","Test","Test Stat","testStat","TestStatsComponent",1.00,"Modifies Test Stat",0,0,None,None
+"Other","Time","Boss Max Dust","bossMaxDustAmount","TimeDustSpawner",8.00,"Maximum dust from boss enemies",0,0,None,None
+"Other","Time","Boss Min Dust","bossMinDustAmount","TimeDustSpawner",5.00,"Minimum dust from boss enemies",0,0,None,None
+"Other","Time","Max Dust Amount","maxDustAmount","TimeDustSpawner",3.00,"Maximum time dust spawned",0,0,None,None
+"Other","Time","Min Dust Amount","minDustAmount","TimeDustSpawner",1.00,"Minimum time dust spawned",0,0,None,None
+"Other","Time Dust","Buff Duration","collectBuffDuration","TimeDust",1.00,"How long the speed buff lasts after collection",0,0,None,None
+"Other","Time Dust","Detonation Damage","detonationDamage","TimeDust",20.00,"Damage dealt when dust is detonated by Chrono Collapse",0,0,None,None
+"Other","Time Dust","Detonation Radius","detonationRadius","TimeDust",10.00,"Explosion radius when detonated",0,0,None,None
+"Other","Time Dust","Dust Lifetime","lifetimeSeconds","TimeDust",1.00,"How long dust exists before despawning",0,0,None,None
+"Other","Time Dust","Speed Buff Amount","collectSpeedBuff","TimeDust",5.00,"Movement speed bonus percentage when collected",0,0,None,None
+"Other","Time Dust VFX","Collect Particle Lifetime","collectParticleLifetime","TimeDust",1.00,"How long collect particles last",0,0,None,None
+"Other","Time Dust VFX","Detonation Particle Count","detonationParticleCount","TimeDust",1.00,"Number of particles in detonation effect",0,0,None,None
+"Other","Time Dust Visual","Float Amplitude","floatAmplitude","TimeDust",1.00,"How high/low the dust bobs while floating",0,0,None,None
+"Other","Time Dust Visual","Float Frequency","floatFrequency","TimeDust",1.00,"How fast the floating animation cycles",0,0,None,None
+"Other","Time Dust Visual","Pulse Intensity","pulseIntensity","TimeDust",1.00,"Intensity of the pulsing effect",0,0,None,None
+"Other","Time Dust Visual","Pulse Speed","pulseSpeed","TimeDust",5.00,"Speed of the pulsing glow animation",0,0,None,None
+"Other","Time Dust Visual","Rotation Speed","rotationSpeed","TimeDust",5.00,"How fast the dust rotates",0,0,None,None
+"Other","VFX","Explosion Force","explosionForce","TimeFragmentDeathEffect",10.00,"Force applied to fragments on death",0,0,None,None
+"Other","VFX","Explosion Radius","explosionRadius","TimeFragmentDeathEffect",3.00,"Radius of the death explosion effect",0,0,None,None
+"Other","VFX","Fade Delay","fadeDelay","TimeFragmentDeathEffect",0.50,"Delay before fragments start fading",0,0,None,None
+"Other","VFX","Fragment Count","fragmentCount","TimeFragmentDeathEffect",50.00,"Number of fragments spawned on death",0,0,None,None
+"Other","VFX","Fragment Destroy Time","fragmentDestroyTime","TimeFragmentDeathEffect",1.00,"How long before fragments are destroyed (to prevent collision)",0,0,None,None
+"Other","VFX","Fragment Lifetime","fragmentLifetime","TimeFragmentDeathEffect",2.00,"How long fragments exist before fading",0,0,None,None
+"Other","VFX","Fragment Size","fragmentSize","TimeFragmentDeathEffect",0.10,"Size of individual fragments",0,0,None,None
+"System","AI Director","Ambush Chance","ambushChance","AIDirector",0.15,"Chance of an ambush event (0-1)",0,0,None,None
+"System","AI Director","Ambush Enemy Multiplier","ambushEnemyMultiplier","AIDirector",3.00,"Multiplier for the number of enemies in an ambush",0,0,None,None
+"System","AI Director","Base Difficulty Time","baseDifficultyMinutes","AIDirector",12.00,"Minutes until difficulty reaches 1.0",0,0,None,None
+"System","AI Director","Base Spawn Interval","baseSpawnInterval","AIDirector",10.00,"Base spawn interval in seconds",0,0,None,None
+"System","AI Director","Boss Chance Per Minute","bossChancePerMinute","AIDirector",0.01,"Additional boss chance per minute of game time",0,0,None,None
+"System","AI Director","Boss Cost Scaling","bossCostScaling","AIDirector",1.50,"How much the boss credit cost scales with difficulty",0,0,None,None
+"System","AI Director","Boss Spawn Chance","bossSpawnChance","AIDirector",0.05,"Chance of a boss spawning instead of regular enemies",0,0,None,None
+"System","AI Director","Combat Credits Multiplier","combatCreditsMultiplier","AIDirector",1.50,"Combat engagement bonus multiplier",0,0,None,None
+"System","AI Director","Debug Spawn Count","debugSpawnCount","AIDirector",6.00,"Number of enemies spawned when debug key is pressed",0,0,None,None
+"System","AI Director","Gradual Credit Scaling","gradualCreditDifficultyScaling","AIDirector",0.25,"How much credits scale with difficulty (reduced)",0,0,None,None
+"System","AI Director","Gradual Credits Per Second","gradualCreditsPerSecond","AIDirector",0.50,"Base credits per second (reduced for longer gameplay)",0,0,None,None
+"System","AI Director","Late Game Scale Time","lateGameScaleMinutes","AIDirector",20.00,"Minutes for late-game scaling to reach full effect",0,0,None,None
+"System","AI Director","Late Game Start Time","lateGameStartMinutes","AIDirector",8.00,"Minutes before late-game scaling begins",0,0,None,None
+"System","AI Director","Max Credits","maxCredits","AIDirector",100.00,"Maximum credits that can be accumulated",0,0,None,None
+"System","AI Director","Max Difficulty Cap","maxDifficultyCap","AIDirector",10.00,"Maximum difficulty cap",0,0,None,None
+"System","AI Director","Max Enemies At Once","maxEnemiesAtOnce","AIDirector",30.00,"Maximum number of enemies at once",0,0,None,None
+"System","AI Director","Max Enemies Per Batch","maxEnemiesPerBatch","AIDirector",6.00,"Maximum number of enemies in a spawn batch",0,0,None,None
+"System","AI Director","Max Spawn Attempts","maxSpawnAttempts","AIDirector",30.00,"Maximum attempts to find a valid spawn position",0,0,None,None
+"System","AI Director","Max Spawn Distance","maxSpawnDistance","AIDirector",20.00,"Maximum distance from player to spawn enemies",0,0,None,None
+"System","AI Director","Min Credits For Spawn","minCreditsForSpawn","AIDirector",10.00,"Minimum credits needed to attempt a spawn",0,0,None,None
+"System","AI Director","Min Spawn Distance","minSpawnDistance","AIDirector",10.00,"Minimum distance from player to spawn enemies",0,0,None,None
+"System","AI Director","Min Spawn Interval","minSpawnInterval","AIDirector",4.00,"Minimum spawn interval (at high difficulty)",0,0,None,None
+"System","AI Director","Min Time Between Ambushes","minTimeBetweenAmbushes","AIDirector",120.00,"Minimum time between ambush events (seconds)",0,0,None,None
+"System","AI Director","Min Time Between Bosses","minTimeBetweenBosses","AIDirector",300.00,"Minimum time between boss spawns (seconds)",0,0,None,None
+"System","AI Director","Raycast Height","raycastHeight","AIDirector",50.00,"Vertical offset for raycasting to find ground",0,0,None,None
+"System","AI Director/Elite","Elite Chance Per Coin Tier","eliteChancePerCoinTier","EnemySpawnIntegration",0.10,"Additional elite chance per 50 coins",0,0,None,None
+"System","AI Director/Elite","Elite Coin Multiplier","eliteCoinMultiplier","EnemySpawnIntegration",1.00,"Coin reward multiplier for elite enemies",0,0,None,None
+"System","AI Director/Elite","Elite Damage Multiplier","eliteDamageMultiplier","EnemySpawnIntegration",20.00,"Damage bonus for elite enemies",0,0,None,None
+"System","AI Director/Elite","Elite Health Multiplier","eliteHealthMultiplier","EnemySpawnIntegration",100.00,"Health bonus for elite enemies",0,0,None,None
+"System","AI Director/Elite","Elite Spawn Chance","baseEliteChance","EnemySpawnIntegration",0.10,"Base chance for elite enemy spawn",0,0,None,None
+"System","Time","History Seconds","historySeconds","TimeDirector",5.00,"How many seconds of history to keep",0,0,None,None
+"System","Time","Max Active Trackables","maxActiveTrackables","TimeDirector",200.00,"Maximum number of tracked objects",0,0,None,None
+"System","Time","Max Tracking Distance","maxTrackingDistance","TimeDirector",50.00,"Maximum distance to track objects",0,0,None,None
